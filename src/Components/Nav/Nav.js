@@ -1,17 +1,16 @@
 import React from "react";
 import Hamburger from "./Hamburger";
+import Logo from '../../assets/logo.png'
 
 const Nav = () =>{
     return(
-        <div className="bg-black relative` lg:fixed py-5 pb-5 bg-colors-ardm-black w-full">
+        <div className="bg-black relative` xl:fixed py-5 pb-5 bg-colors-ardm-black w-full">
             <div className="container mx-auto flex">
                 <div className="container mx-auto flex justify-between">
-                    <h1 className="text-white">
-                        Logo
-                    </h1>
+                    <img src={Logo} />
                     <Hamburger />
                 </div>
-                <div className="flex space-x-16 font-bold text-white hidden lg:block">
+                <div className="flex space-x-16 font-bold text-white hidden xl:block">
                     <a className="">adobe</a>
                     <a className="">adobe</a>
                     <a className="">adobe</a>

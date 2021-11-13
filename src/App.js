@@ -13,6 +13,7 @@ import Soldonomics from "./Components/Soldonomics";
 import Faq from "./Components/Faq";
 import Socials from "./Components/Social";
 import Footer from "./Components/Footer";
+import Whitepaper from "./Components/Whitepaper";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
     <div className="overflow-hidden">
       <Nav />
       <Section />
+      <Whitepaper />
       <Section2 />
       <Section3 />
       <Section4 />

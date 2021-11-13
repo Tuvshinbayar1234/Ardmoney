@@ -16,38 +16,38 @@ const Workteam = () => {
 
     const member = [
 
-        <div className="container mx-auto mt-10">
-            <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 mt-10">
-                <div className=" rounded-xl flex flex-col justify-center items-center ">
+        <div className="container mx-auto">
+            <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
+                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Eegii} />
                     <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">Дайверс Солюшн ХХК, Гүйцэтгэх захирал</p>
+                    
                 </div>
-                <div className=" rounded-xl flex flex-col justify-center items-center ">
+                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Eegii} />
                     <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">Дайверс Солюшн ХХК, Гүйцэтгэх захирал</p>
+                    
                 </div>
-                <div className=" rounded-xl flex flex-col justify-center items-center ">
+                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Eegii} />
                     <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">Дайверс Солюшн ХХК, Гүйцэтгэх захирал</p>
+                    
                 </div>
                 
-                <div className=" rounded-xl flex flex-col justify-center items-center ">
+                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Chuky} />
                     <h1 className="text-xl mt-5 text-white">Д. Чадраабал</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-1.5">АРД ЭКС ХХК, Үйл ажиллагаа хариуцсан захирал</p>
+                    
                 </div>
-                <div className=" rounded-xl flex flex-col justify-center items-center ">
+                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Anhaa} />
                     <h1 className="text-xl mt-5 text-white">Д. Анхбаясгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white">АРД ЭКС ХХК, Технологи хариуцсан захирал</p>
+                    
                 </div>
             </div>
             
@@ -64,73 +64,73 @@ const Workteam = () => {
                 </div>
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Tulga} />
                                 <h1 className="text-xl mt-5 text-white">С.Тулга</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-3.5">Монгол ДиФай ХХК, Гүйцэтгэх захирал</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Od} />
                                 <h1 className="text-xl mt-5 text-white">Г.Мөнх-Од</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white">Дайверс Солюшн ХХК, Технологи хариуцсан захирал</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
+                                
                             </div>
                         </div>
-                        <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                        <div className="flex mt-10 flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Tulga} />
                                 <h1 className="text-xl mt-5 text-white">С.Тулга</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-3.5">Монгол ДиФай ХХК, Гүйцэтгэх захирал</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Od} />
                                 <h1 className="text-xl mt-5 text-white">Г.Мөнх-Од</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white">Дайверс Солюшн ХХК, Технологи хариуцсан захирал</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
+                                
                             </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center ">
+                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
+                                
                             </div>
                         </div>
                 </div>
                 {
                     showMore && member.map((item)=> 
-                    <div>
+                    <div className="">
                         {item}
                     </div>
                     )

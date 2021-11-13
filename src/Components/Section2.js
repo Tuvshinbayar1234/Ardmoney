@@ -1,5 +1,5 @@
 import react, {useState} from "react";
-import Cube from '../assets/cube.png'
+import Cube from '../assets/bg3.png'
 
 
 const Section2 = () => {
@@ -29,16 +29,16 @@ const Section2 = () => {
 
         return (
             <div className="ml-10 sm:ml-0">
-                <h1 className="mt-10 text-2xl font-semibold text-white">{temp[0].title}</h1>
-                <h1 className="mt-10 text-white w-6/12">{temp[0].data}</h1>
+                <h1 className="mt-10 text-2xl w-full font-semibold text-white">{temp[0].title}</h1>
+                <h1 className="mt-10 text-white xl:w-3/5">{temp[0].data}</h1>
             </div>
         )
     }
     
     return(
-        <div className=" w-full h-full pb-20" style={{backgroundColor: '#1C1B24'}}>
+        <div className=" w-full h-full pb-56" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
             <div className="container mx-auto">
-                <h1 className="text-left sm:text-center py-10 text-3xl font-bold text-white">Resolving DEX Issues</h1>
+                <h1 className="text-left sm:text-center py-10 text-3xl font-bold text-white text-center">Resolving DEX Issues</h1>
                 <div className="flex w-6/12 space-x-16 ">
                     <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>Төвлөрсөн бус санхүү</h1>
                     <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Төвлөрсөн бус арилжаа</h1>
@@ -60,15 +60,15 @@ const Section2 = () => {
                     
                 </div>
                 {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600' style={{top:'55%', zIndex: '0'}}></div> */}
-                <div className="container mx-5 flex justify-between">
-                    <div className="shadow-2xl border-l-2 ml-20 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
+                <div className="container mx-5 flex justify-evenly">
+                    <div className="shadow-2xl border-l-2 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
                     {
                         findActiveData(activeSection)
                     }
                     </div>
-                    <div className="hidden sm:block">
+                    {/* <div className="hidden sm:block">
                         <img src={Cube} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
