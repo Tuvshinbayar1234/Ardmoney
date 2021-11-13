@@ -60,7 +60,7 @@ const Workteam = () => {
         <div id="team" className="w-full" style={{backgroundImage: `url(${Team})` , backgroundSize: '100% 100%'}}>
             <div className="container mx-auto flex flex-col">
                 <div className="mx-2.5 lg:pl-16">
-                    <h1 className="font-bold text-3xl py-14 text-white">Төслийн баг</h1>
+                    <h1 className="font-bold text-2xl xl:text-3xl py-14 text-white">Төслийн баг</h1>
                 </div>
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">

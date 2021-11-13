@@ -55,7 +55,7 @@ const Ecosystem = () => {
                     </div>
                     <div className="">
                         <div className="">
-                            <h1 className="text-4xl text-white">Ecosystem</h1>
+                            <h1 className="xl:text-4xl text-2xl text-white">Ecosystem</h1>
                         </div>
                         <div className="flex space-x-16 mt-10">
                             <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>High gas fees</h1>
