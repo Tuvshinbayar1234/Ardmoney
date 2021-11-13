@@ -12,7 +12,7 @@ const Section = () => {
                 <p className="font-medium mt-10 w-1/3 text-xl text-white hidden xl:block">
                     Таны төвлөрсөн бус, бие даасан санхүүгийн оролцооны гарц    
                 </p>
-                <div className="hidden xl:block">
+                <div className="hidden xl:blockç">
                 <div className=" w-60 h-11 bg-red-50 text-center flex justify-center items-center rounded-lg mt-10">
                     <a href="#" className="text-center flex items-center justify-center">Төсөлтэй танилцах</a>
                 </div>

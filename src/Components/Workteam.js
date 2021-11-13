@@ -65,8 +65,8 @@ const Workteam = () => {
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Tulga} />
-                                <h1 className="text-xl mt-5 text-white">С.Тулга</h1>
+                                <img className="w-44 rounded-full" src={Eegii} />
+                                <h1 className="text-xl mt-5 text-white">М. Энх-Амгалан</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
                                 
                             </div>
@@ -77,20 +77,20 @@ const Workteam = () => {
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
+                                <img className="w-44 rounded-full" src={Anhaa} />
+                                <h1 className="text-xl mt-5 text-white">Д. Анхбаясгалан</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
+                                <h1 className="text-xl mt-5 text-white">М. Энх-Улирал</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
+                                <h1 className="text-xl mt-5 text-white">А. Ундрал</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
                                 
                             </div>
@@ -98,31 +98,31 @@ const Workteam = () => {
                         <div className="flex mt-10 flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Tulga} />
-                                <h1 className="text-xl mt-5 text-white">С.Тулга</h1>
+                                <h1 className="text-xl mt-5 text-white">А. Амартүвшин</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Od} />
-                                <h1 className="text-xl mt-5 text-white">Г.Мөнх-Од</h1>
+                                <h1 className="text-xl mt-5 text-white">Т. Бумцэнд</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
+                                <h1 className="text-xl mt-5 text-white">О. Түвшинбаяр</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
+                                <h1 className="text-xl mt-5 text-white">М. Болортоль</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
                                 
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">О. Мөнх-Оргил</h1>
+                                <h1 className="text-xl mt-5 text-white">Г. Ууганбат</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
                                 
                             </div>
