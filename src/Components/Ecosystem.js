@@ -3,23 +3,32 @@ import Eco from '../assets/eco.png'
 
 const Ecosystem = () => {
 
-    const [activeSection, setActiveSection] = useState(1);
+    const [activeSection, setActiveSection] = useState(3);
 
     const dummy = [
         {
             id: 1,
             title: 'Resolving dex issues',
-            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1"
+            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1",
+            list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
         },
         {
             id: 2,
             title: 'Resolving dex issues 2',
-            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!2"
+            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!2",
+            list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
         },
         {
             id: 3,
             title: 'Resolving dex issues 3',
-            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3"
+            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+            list3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
         }
     ] 
 
@@ -27,9 +36,12 @@ const Ecosystem = () => {
         let temp = dummy.filter(singleData => singleData.id == id)
 
         return (
-            <div className="xl:w-6/12 w-9/12">
+            <div className="w-full">
                 <h1 className="mt-10 text-2xl font-semibold text-white">{temp[0].title}</h1>
-                <h1 className="mt-10 text-white xl:w-4/12">{temp[0].data}</h1>
+                <h1 className="mt-10 text-white xl:w-full">{temp[0].data}</h1>
+                <h1 className="mt-10 text-white xl:w-full">{temp[0].list}</h1>
+                <h1 className="mt-10 text-white xl:w-full">{temp[0].list2}</h1>
+                <h1 className="mt-10 text-white xl:w-full">{temp[0].list3}</h1>
             </div>
         )
     }
