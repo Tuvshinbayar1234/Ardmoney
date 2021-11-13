@@ -84,7 +84,7 @@ const Ecosystem = () => {
                         </div>
                         {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600' style={{top:'311%', zIndex: '0'}}></div> */}
                         <div className="flex justify-between mb-20 block xl:hidden">
-                            <div className="shadow-2xl border-l-2 mx-5 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+                            <div className="shadow-2xl border-l-2 border-t-2 border-yellow-500 mx-5 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
                             {
                                 findActiveData(activeSection)
                             }

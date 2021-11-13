@@ -61,7 +61,7 @@ const Section2 = () => {
                 </div>
                 {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600' style={{top:'55%', zIndex: '0'}}></div> */}
                 <div className="container mx-5 flex justify-evenly">
-                    <div className="shadow-2xl border-l-2 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
+                    <div className="shadow-2xl border-l-2 border-t-2 border-yellow-500 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
                     {
                         findActiveData(activeSection)
                     }

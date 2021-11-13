@@ -126,7 +126,7 @@ const Section4 = () => {
                                     <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                                 </div>
                             </div>
-                            <div className="shadow-2xl border-l-2 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+                            <div className="shadow-2xl border-l-2 border-t-2 border-yellow-500 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
                                 {
                                     HandleClick(click)
                                 }
