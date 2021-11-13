@@ -4,7 +4,7 @@ import Logo from '../../assets/logo.png'
 
 const Nav = () =>{
     return(
-        <div className="bg-black relative` xl:fixed py-5 pb-5 bg-colors-ardm-black w-full">
+        <div className="bg-black relative py-5 pb-5 bg-colors-ardm-black w-full">
             <div className="container mx-auto flex">
                 <div className="container mx-auto flex justify-between">
                     <img src={Logo} />
