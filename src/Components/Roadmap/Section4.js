@@ -28,7 +28,7 @@ const Section4 = () => {
 
         return (
             <div>
-                <h1 className="mt-10 text-5xl font-semibold text-yellow-400 mx-1.5">{temp[0].title}</h1>
+                <h1 className="mt-10 text-2xl font-semibold text-yellow-400 mx-1.5">{temp[0].title}</h1>
                 <h1 className="mt-10 text-white mx-1.5">{temp[0].data}</h1>
             </div>
         )
@@ -42,7 +42,7 @@ const Section4 = () => {
                     <h1 className="text-5xl font-bold text-white">АРДМААНИЙ Төлөвлөгөө</h1>
                 </div>
                 <div className="flex justify-around p-20">
-                    <div className="">
+                    <div className="hidden xl:block">
                     <div className={styles.block}></div>
                     <div className={styles.block2}>
                         <div onClick={() => setClick(1)} className="flex">
@@ -59,7 +59,28 @@ const Section4 = () => {
                         </div>
                     </div>
                     </div>
-                    <div className=" shadow-2xl rounded-2xl w-4/12 h-96 mt-28" style={{backgroundColor: '#1C1B24'}}>
+                    <div className="flex flex-col block xl:hidden">
+                            <div className="flex justify-center items-center ml-10 block xl:hidden">
+                                <div onClick={() => setClick(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl bg-yellow-600 justify-center items-center">
+                                    <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
+                                </div>
+                                <div className="w-12 h-1 bg-yellow-600"></div>
+                                <div onClick={() => setClick(2)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl bg-yellow-600 justify-center items-center">
+                                    <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
+                                </div>
+                                <div className="w-12 h-1 bg-yellow-600"></div>
+                                <div onClick={() => setClick(3)} className="flex block xl:hidden w-20 h-6 rounded-xl cursor-pointer bg-yellow-600 justify-center items-center">
+                                    <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
+                                </div>
+                            </div>
+                            <div className="shadow-2xl border-l-2 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+                                {
+                                    HandleClick(click)
+                                }
+                            </div>
+                    </div>
+                    {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600 mr-20' style={{top:'203%'}}></div> */}
+                    <div className="hidden xl:block shadow-2xl rounded-2xl w-4/12 h-96 mt-28" style={{backgroundColor: '#1C1B24'}}>
                         {
                             HandleClick(click)
                         }

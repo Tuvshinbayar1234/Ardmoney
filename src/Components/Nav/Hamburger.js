@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { Disclosure } from '@headlessui/react';
 
+import {FaAlignJustify} from 'react-icons/fa'
 
 import { useTranslation } from 'react-i18next';
 
@@ -18,14 +19,19 @@ export default function Hamburger() {
         <>
             <div className="">
                 <nav className="relative">
-                    <div className="lg:hidden relative">
-                        <button onClick={handleToggle} className="flex items-center text-blue-600">
-                            X
+                    <div className="lg:hidden relative mr-5">
+                        <button onClick={handleToggle} className="flex items-center text-white">
+                            <FaAlignJustify />
                         </button>
                     </div>
                 </nav>
                 <div className="navbar-menu">
                     <nav className={`z-50 fixed top-0 right-0 bottom-0 bg-black text-gray-300 flex flex-col w-full max-w-sm py-6 px-6 bg-dax-blue border-r overflow-y-auto  ${navOpen ? 'fixed right-0 transition-all duration-200 ease-in ' : 'fixed -right-full transition-all duration-200 ease-in '}`}>
+                        <div className="lg:hidden relative mr-5 flex justify-end">
+                            <button onClick={handleToggle} className="flex items-center text-white">
+                                <FaAlignJustify />
+                            </button>
+                        </div>
                         <div className="">
                             <ul className="mt-5">
                                 <li className="mb-1">

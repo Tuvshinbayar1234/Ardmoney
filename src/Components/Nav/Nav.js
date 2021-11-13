@@ -3,7 +3,7 @@ import Hamburger from "./Hamburger";
 
 const Nav = () =>{
     return(
-        <div className="bg-black relative` sm:fixed py-5 pb-5 bg-colors-ardm-black w-full">
+        <div className="bg-black relative` lg:fixed py-5 pb-5 bg-colors-ardm-black w-full">
             <div className="container mx-auto flex">
                 <div className="container mx-auto flex justify-between">
                     <h1 className="text-white">
@@ -11,7 +11,7 @@ const Nav = () =>{
                     </h1>
                     <Hamburger />
                 </div>
-                <div className="flex space-x-16 font-bold text-white hidden sm:block">
+                <div className="flex space-x-16 font-bold text-white hidden lg:block">
                     <a className="">adobe</a>
                     <a className="">adobe</a>
                     <a className="">adobe</a>

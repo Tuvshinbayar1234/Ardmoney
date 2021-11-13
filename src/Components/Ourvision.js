@@ -8,7 +8,7 @@ const Ourvision = () => {
                 <div className="">
                     <h1 className="text-5xl mb-5 text-center font-semibold text-white">OurVision</h1>
                 </div>
-                <div className="flex justify-around items-center">
+                <div className="flex lg:flex-row flex-col justify-around items-center">
                     <div className="flex flex-col justify-center items-center">
                         <img src={Electric} />
                         <h1 className="text-2xl font-semibold text-center text-white">

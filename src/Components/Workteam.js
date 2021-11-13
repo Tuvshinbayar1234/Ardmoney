@@ -95,7 +95,7 @@ const Workteam = () => {
                                 <p className="text-center mt-2 pb-2 text-xs lg:text-base text-white mx-0.5">АРД ЭКС ХХК, Бизнес хөгжлийн менежер</p>
                             </div>
                         </div>
-                        <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden sm:block">
+                        <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
                             <div className=" rounded-xl flex flex-col justify-center items-center ">
                                 <img className="w-44 rounded-full" src={Tulga} />
                                 <h1 className="text-xl mt-5 text-white">С.Тулга</h1>
@@ -136,9 +136,9 @@ const Workteam = () => {
                     )
                 }
                 
-                <div className="flex items-center justify-center py-10 block sm:hidden">
-                    <div onClick={() => setShowMore(!showMore)} className="bg-black p-5 rounded-lg hover:bg-blue-400 transition-all duration-200 cursor-pointer">
-                        <h1 className="font-bold text-white">+ Бүх хүмүүс</h1>
+                <div className="flex items-center justify-center py-10 block lg:hidden">
+                    <div onClick={() => setShowMore(!showMore)} className="bg-yellow-600 p-5 rounded-lg hover:bg-blue-400 transition-all duration-200 cursor-pointer">
+                        <h1 className="font-bold text-white">Бусад гишүүд</h1>
                     </div>
                 </div>
             </div>
