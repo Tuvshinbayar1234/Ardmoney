@@ -10,8 +10,8 @@ const Section3 = () => {
                         <img src={Vid} alt=''/>
                     </div>
                     <div className="w-6/12 flex flex-col justify-center">
-                        <h1 className="text-2xl text-white">Lorem ipsum dolor sit amet.</h1>
-                        <p className="mt-5 w-9/12 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nobis cum doloribus neque dignissimos quasi in laborum provident voluptatibus debitis rerum soluta minima earum culpa ipsam ratione voluptatem rem, a tempora ea, illo beatae? Quam hic dignissimos reprehenderit expedita velit? Unde eos adipisci, earum natus quod iure asperiores. Veritatis, earum!</p>
+                        <h1 className="text-2xl text-white">AрдМааний гэж юу вэ?</h1>
+                        <p className="mt-5 w-9/12 text-white">АрдМааний нь эзэмшигчдэдээ дундын зуучлагчгүйгээр зээл, хадгаламж, ашиг олборлолт зэрэг санхүүгийн үйлчилгээг авах боломжийг олгодог DAO (Decentralized Autonomous Organization) протокол юм. Та Ардмааний протокол дээр хөрөнгөө хадгалан, өгөөж хүртэх боломжтойгоос гадна түргэн шуурхай арилжаа хийх боломжтой байх болно.</p>
                     </div>
                 </div>
             </div>

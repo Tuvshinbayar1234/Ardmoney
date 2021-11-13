@@ -9,7 +9,8 @@ const Section4 = () => {
         {
             id: 1,
             title: 'Resolving dex issues',
-            data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1"
+            data: "*ARDM токен нэвтрүүлэлт",
+            list: '*SPL, ERC20, BEP20 хувилбарууд'
         },
         {
             id: 2,
@@ -30,6 +31,9 @@ const Section4 = () => {
             <div>
                 <h1 className="mt-10 text-5xl font-semibold text-yellow-400 mx-1.5">{temp[0].title}</h1>
                 <h1 className="mt-10 text-white mx-1.5">{temp[0].data}</h1>
+                <h1 className="mt-10 text-white mx-1.5">{temp[0].lists}</h1>
+                <h1 className="mt-10 text-white mx-1.5">{temp[0].lists}</h1>
+                <h1 className="mt-10 text-white mx-1.5">{temp[0].lists}</h1>
             </div>
         )
     }
@@ -39,7 +43,7 @@ const Section4 = () => {
         <div className="h-fulll w-full py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
             <div className="container mx-auto">
                 <div className="text-center">
-                    <h1 className="text-5xl font-bold text-white">АРДМААНИЙ Төлөвлөгөө</h1>
+                    <h1 className="text-5xl font-bold text-white">АрдМааний Төлөвлөгөө</h1>
                 </div>
                 <div className="flex justify-around p-20">
                     <div className="">
