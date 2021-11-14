@@ -36,9 +36,9 @@ const Section2 = () => {
     }
     
     return(
-        <div className=" w-full h-full py-32" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
+        <div className=" w-full h-full xl:py-32" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
             <div className="container mx-auto">
-                <h1 className="text-left sm:text-center py-10 text-2xl xl:text-3xl font-bold text-white text-center">Resolving DEX Issues</h1>
+                <h1 className="text-left sm:text-center py-6 text-2xl xl:text-3xl font-bold text-white text-center">Resolving DEX Issues</h1>
                 <div className="flex w-6/12 space-x-16 ">
                     <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>Төвлөрсөн бус санхүү</h1>
                     <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Төвлөрсөн бус арилжаа</h1>
