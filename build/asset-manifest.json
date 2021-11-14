@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c501b4c4.chunk.css",
-    "main.js": "/static/js/main.b6fa561a.chunk.js",
-    "main.js.map": "/static/js/main.b6fa561a.chunk.js.map",
+    "main.js": "/static/js/main.f306c462.chunk.js",
+    "main.js.map": "/static/js/main.f306c462.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d34000d9.js",
     "runtime-main.js.map": "/static/js/runtime-main.d34000d9.js.map",
     "static/js/2.7fb713a8.chunk.js": "/static/js/2.7fb713a8.chunk.js",
@@ -19,7 +19,6 @@
     "static/media/anhaa.23d35e5d.jpeg": "/static/media/anhaa.23d35e5d.jpeg",
     "static/media/ardmcoin.9d180640.png": "/static/media/ardmcoin.9d180640.png",
     "static/media/bg3.a73f5e0a.png": "/static/media/bg3.a73f5e0a.png",
-    "static/media/big-coin.b056a765.png": "/static/media/big-coin.b056a765.png",
     "static/media/chain.cfa7373f.png": "/static/media/chain.cfa7373f.png",
     "static/media/chuky.68b9aa93.jpeg": "/static/media/chuky.68b9aa93.jpeg",
     "static/media/cube.e9a44197.png": "/static/media/cube.e9a44197.png",
@@ -37,6 +36,6 @@
     "static/js/runtime-main.d34000d9.js",
     "static/js/2.7fb713a8.chunk.js",
     "static/css/main.c501b4c4.chunk.css",
-    "static/js/main.b6fa561a.chunk.js"
+    "static/js/main.f306c462.chunk.js"
   ]
 }
