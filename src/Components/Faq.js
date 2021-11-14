@@ -2,7 +2,7 @@ import react from "react";
 
 const Faq = () => {
     return(
-        <div className="w-full h-full py-5" style={{backgroundColor:'#1F1E29'}}>
+        <div id="FAQ" className="w-full h-full py-5" style={{backgroundColor:'#1F1E29'}}>
             <div className="container mx-auto">
                 <div className="text-center">
                     <h1 className="text-white text-2xl xl:text-4xl font-semibold">Түгээмэл Асуултууд</h1>

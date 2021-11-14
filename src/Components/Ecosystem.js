@@ -47,7 +47,7 @@ const Ecosystem = () => {
     }
 
     return(
-        <div className="w-full h-full py-8" style={{backgroundColor: '#1F1E29'}}>
+        <div id="Eco" className="w-full h-full py-8" style={{backgroundColor: '#1F1E29'}}>
             <div className="container mx-auto">
                 <div className=" flex justify-around flex-col-reverse xl:flex-row">
                     <div className="flex justify-center items-center">

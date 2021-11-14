@@ -36,7 +36,7 @@ const Section2 = () => {
     }
     
     return(
-        <div className=" w-full h-full" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
+        <div id="Res" className=" w-full h-full" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
             <div className="container mx-auto">
                 <h1 className="text-2xl py-4 xl:text-6xl font-bold text-white text-center">Resolving DEX Issues</h1>
                 <div className="flex w-6/12 space-x-16 py-5">

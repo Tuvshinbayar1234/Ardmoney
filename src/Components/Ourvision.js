@@ -6,7 +6,7 @@ import Denluu from '../assets/denluu.png'
 
 const Ourvision = () => {
     return(
-        <div className="w-full h-full" style={{backgroundColor: '#1F1E29'}}>
+        <div id="Our" className="w-full h-full" style={{backgroundColor: '#1F1E29'}}>
             <div className="container mx-auto py-10">
                 <div className="">
                     <h1 className="text-2xl xl:text-5xl mb-5 text-center font-semibold text-white">Онцлог</h1>
