@@ -9,7 +9,7 @@ const Ourvision = () => {
         <div id="Our" className="w-full h-full" style={{backgroundColor: '#1F1E29'}}>
             <div className="container py-32 mx-auto">
                 <div className="">
-                  <h1 className="mb-16 md:mb-5 text-2xl font-semibold text-center text-white xl:text-5xl">Онцлог</h1>
+                  <h1 className="mb-16 text-2xl font-semibold text-center text-white md:mb-5 xl:text-5xl">Онцлог</h1>
                 </div>
                 <div className="flex flex-col items-center justify-center lg:flex-row">
                     <div className="flex flex-col items-center justify-center w-full xl:h-96 xl:w-4/12">

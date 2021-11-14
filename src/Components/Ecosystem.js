@@ -1,5 +1,5 @@
 import react, {useState} from "react";
-import Eco from '../assets/eco.png'
+import Eco from '../assets/chain.png'
 
 const Ecosystem = () => {
 

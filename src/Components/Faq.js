@@ -9,7 +9,7 @@ const Faq = () => {
     <div id="FAQ" className="w-full h-full py-32" style={{backgroundColor: '#1F1E29'}}>
       <div className="container mx-auto">
         <div className="text-center">
-          <h1 className="md:pb-16 text-2xl font-semibold text-white xl:text-6xl">Түгээмэл Асуултууд</h1>
+          <h1 className="text-2xl font-semibold text-white md:pb-16 xl:text-6xl">Түгээмэл Асуултууд</h1>
         </div>
         <div className="">
           <h1 className={titleTextStyle} >АрдМааний төсөл хэзээ бэлэн болох вэ?</h1>
