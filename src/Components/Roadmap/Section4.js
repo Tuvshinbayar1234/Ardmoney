@@ -11,7 +11,7 @@ const Section4 = () => {
             title: 'Resolving dex issues',
             data: "*ARDM токен нэвтрүүлэлт",
             list: '*SPL, ERC20, BEP20 хувилбарууд',
-            list2: '*SPL, ERC20, BEP20 хувилбарууд *SPL, ERC20, BEP20 хувилбарууд *SPL, ERC20, BEP20 хувилбарууд *SPL, ERC20, BEP20 хувилбарууд',
+            list2: '*SPL, ERC20, BEP20 хувилбарууд',
             list3: '*SPL, ERC20, BEP20 хувилбарууд',
             list4: '*SPL, ERC20, BEP20 хувилбарууд',
             list5: '*SPL, ERC20, BEP20 хувилбарууд',
@@ -91,28 +91,44 @@ const Section4 = () => {
     return(
         <div className="h-fulll w-full py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
             <div className="container mx-auto">
-                <div className="text-center">
-                    <h1 className=" text-2xl xl:text-5xl font-bold text-white">АрдМааний Төлөвлөгөө</h1>
-                </div>
-                <div className="flex justify-center items-center mt-14">
-                    <div className=" w-full flex flex-col justify-center items-center">
-                    <div className={styles.block}></div>
-                    <div className={styles.block2}>
-                        <div onClick={() => setClick(1)} className="flex">
-                            <div className={`${styles.circle} hover:bg-red-500 cursor-pointer`}></div>
-                            {/* <h1 className=" top-14 left-auto -right-32 absolute cursor-pointer text-yellow-400">Эхний үе шат</h1> */}
-                        </div>
-                        <div onClick={() => setClick(2)} className="">
-                            <div className={`${styles.circle2} hover:bg-red-100`}></div>
-                            {/* <h1 className=" top-48 left-auto -right-36 absolute cursor-pointer text-yellow-400">Хоёр дахь үе шат</h1> */}
-                        </div>
-                        <div onClick={() => setClick(3)} className="">
-                            <div className={`${styles.circle3} hover:bg-red-100`}></div>
-                            {/* <h1 className="top-80 left-auto -right-40 absolute cursor-pointer text-yellow-400">Гурав дахь үе шат</h1> */}
+            <h1 className="text-white font-semibold text-center text-2xl xl:text-4xl">АрдМааний</h1>
+                <div className="flex justify-center items-center mt-10">
+                    <div className="w-full hidden xl:block">
+                        <div className=" w-full flex flex-row justify-center items-center">
+                            <svg width="187" height="1108" viewBox="0 0 187 1108" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_di_257_14)">
+                                    <path d="M3 0V250C3 283.69 30.3106 311 64 311H117.5C151.189 311 178.5 338.311 178.5 372V1102.5" stroke="#F9B74B" stroke-width="5"/>
+                                </g>
+                                    <circle className="cursor-pointer" onClick={() => setClick(1)} cx="179.5" cy="403.5" r="6" fill="#E68E00" stroke="white" stroke-width="3"/>
+                                    <circle className="cursor-pointer" onClick={() => setClick(2)} cx="179.5" cy="529.5" r="6" fill="#E68E00" stroke="white" stroke-width="3"/>
+                                    <circle className="cursor-pointer" onClick={() => setClick(3)} cx="179.5" cy="664.5" r="6" fill="#E68E00" stroke="white" stroke-width="3"/>
+                                    <defs>
+                                        <filter id="filter0_di_257_14" x="0.5" y="0" width="185.5" height="1107.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                            <feOffset dx="4" dy="4"/>
+                                            <feGaussianBlur stdDeviation="0.5"/>
+                                            <feComposite in2="hardAlpha" operator="out"/>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_257_14"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_257_14" result="shape"/>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                            <feOffset dx="1" dy="1"/>
+                                            <feGaussianBlur stdDeviation="0.5"/>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.75 0"/>
+                                            <feBlend mode="normal" in2="shape" result="effect2_innerShadow_257_14"/>
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            <div className="flex flex-col justify-between space-y-28 ml-10 mt-2 mb-12">
+                                <h1 onClick={() => setClick(1)} className="text-white cursor-pointer hover:text-yellow-500 font-semibold">hello</h1>
+                                <h1 onClick={() => setClick(2)} className="text-white cursor-pointer font-semibold">hello</h1>
+                                <h1 onClick={() => setClick(3)} className="text-white cursor-pointer font-semibold">hello</h1>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                    <div className="flex flex-col block xl:hidden mr-36">
+                    <div className="flex flex-col block xl:hidden mr-3">
                             <div className="flex justify-center items-center ml-10 block xl:hidden ">
                                 <div onClick={() => setClick(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
                                     <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
@@ -133,7 +149,7 @@ const Section4 = () => {
                             </div>
                     </div>
                     {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600 mr-20' style={{top:'415%'}}></div> */}
-                    <div className="hidden xl:block w-full text-center" style={{backgroundColor: '#1C1B24'}}>
+                    <div className="hidden xl:block w-3/5 border-l border-t border-gray-500 rounded-3xl text-left" style={{backgroundColor: '#1C1B24'}}>
                         {
                             HandleClick(click)
                         }
