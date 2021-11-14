@@ -20,7 +20,7 @@ const Section2 = () => {
         {
             id: 3,
             title: 'АрдМааний нь эзэмшигчдээр бүрэн захирагдана.',
-            data: "АрдМааний нь засаглалын токен буюу DAO протоколд суурилсан. DAO нь эзэмшигчдэд хөрөнгийн санд эзлэх өөрийн эзэмшлийн хувиар аливаа шинэ төсөл, дүрэм, урамшуулал, ашиг хуваарилах зэрэг токентой холбоотой асуудлыг дэвшүүлэх, санал хураалт явуулах, санал өгөх боломжийг олгодог. Ингэснээр токены засаглалыг эзэмшигчдэд эрх тэгш хуваарилж, аливаа шийдвэр гадны оролцоо, механик алдаа, хөгжүүлэгчдийн нөлөөнөөс ангид байх баталгааг өгч буй юм. АрдМааний үйл ажиллагаатай холбоотой дэвшүүлсэн санал нь олонхын саналаар хэрэгжинэ. Өөрөөр хэлбэл, АрдМааний-тай холбоотой чухал шийдвэр гаргалтад түүний эзэмшигчид шууд оролцон засаглах тухай ойлголт юм."
+            data: "DAO нь засаглалын токен эзэмшигчдэд хөрөнгийн санд эзлэх өөрийн эзэмшлийн хувиар аливаа шинэ төсөл, дүрэм, урамшуулал, ашиг хуваарилах зэрэг токентой холбоотой асуудлыг дэвшүүлэх, санал хураалт явуулах, санал өгөх боломжийг олгодог. Ингэснээр протоколын засаглалыг эрх тэгш хуваарилж, аливаа шийдвэрт гадны оролцоо, механик алдаа, хөгжүүлэгчдийн нөлөөнөөс ангид байх баталгааг өгч буй юм. АрдМааний үйл ажиллагаатай холбоотой дэвшүүлсэн санал нь АрдМааний эзэмшигчдийн олонхын саналаар хэрэгжинэ. Өөрөөр хэлбэл, АрдМааний-тай холбоотой чухал шийдвэр гаргалтад түүний эзэмшигчид шууд оролцон засаглах тухай ойлголт юм."
         }
     ] 
 
@@ -29,8 +29,8 @@ const Section2 = () => {
 
         return (
             <div className="ml-5 sm:ml-0">
-                <h1 className="mt-5 text-2xl xl:text-4xl font-semibold text-white">{temp[0].title}</h1>
-                <h1 className="mt-5 mb-5 text-sm xl:text-base text-white xl:w-3/5">{temp[0].data}</h1>
+                <h1 className="mt-5 text-2xl xl:text-4xl font-semibold text-white w-2/5">{temp[0].title}</h1>
+                <h1 className="mt-5 mb-5 text-sm xl:text-base text-white xl:w-2/5">{temp[0].data}</h1>
             </div>
         )
     }
@@ -38,11 +38,11 @@ const Section2 = () => {
     return(
         <div id="Res" className=" w-full h-full" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
             <div className="container mx-auto">
-                <h1 className="text-2xl py-4 xl:text-6xl font-bold text-white text-center">Resolving DEX Issues</h1>
-                <div className="flex w-6/12 space-x-16 py-5">
-                    <h1 className="cursor-pointer hidden xl:block hover:text-white border-b-2 hover:border-yellow-200 border-yellow-500 text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>Төвлөрсөн бус санхүү</h1>
-                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Төвлөрсөн бус арилжаа</h1>
-                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(3)}>Засаглал</h1>
+                <h1 className="text-2xl xl:text-6xl font-bold text-white text-center py-20">DAO гэж юу вэ?</h1>
+                <div className="flex w-6/12 space-x-16 xl:ml-5">
+                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>DAO</h1>
+                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Defi</h1>
+                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(3)}>DEX</h1>
                 </div>
                 <div className=" flex justify-center items-center ml-10 block xl:hidden">
                     

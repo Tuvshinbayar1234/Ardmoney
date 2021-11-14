@@ -7,8 +7,8 @@ const Section3 = () => {
             <div className="container mx-auto py-8 pb-8">
             <h1 className="block xl:hidden text-2xl xl:text-5xl text-center text-white">AрдМааний гэж юу вэ?</h1>            
                 <div className="flex sm:flex-row flex-col justify-between">
-                    <div className="sm:w-6/12">
-                        <img src={Vid} className="w-96 sm:w-full" alt=''/>
+                    <div className="sm:w-full">
+                        <img src={Vid} className="sm:w-full" alt=''/>
                     </div>
                     <div className="sm:w-6/12 flex flex-col justify-center mb-10">
                         <h1 className="text-2xl xl:text-5xl text-center xl:text-justify text-white hidden xl:block">AрдМааний гэж юу вэ?</h1>            
