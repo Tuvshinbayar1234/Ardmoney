@@ -38,8 +38,8 @@ const Section2 = () => {
     return(
         <div className=" w-full h-full" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
             <div className="container mx-auto">
-                <h1 className="text-left sm:text-center text-2xl xl:text-6xl font-bold text-white text-center">Resolving DEX Issues</h1>
-                <div className="flex w-6/12 space-x-16 py-16">
+                <h1 className="text-2xl py-4 xl:text-6xl font-bold text-white text-center">Resolving DEX Issues</h1>
+                <div className="flex w-6/12 space-x-16 py-5">
                     <h1 className="cursor-pointer hidden xl:block hover:text-white border-b-2 hover:border-yellow-200 border-yellow-500 text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>Төвлөрсөн бус санхүү</h1>
                     <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Төвлөрсөн бус арилжаа</h1>
                     <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(3)}>Засаглал</h1>
