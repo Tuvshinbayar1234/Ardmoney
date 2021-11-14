@@ -42,7 +42,7 @@ export default function Hamburger() {
                                                 <Disclosure>
                                                     <div className="" onClick={handleToggle}>
                                                         <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
-                                                            <span className="font-semibold">Resolving Dex Issues</span>
+                                                            <span className="font-semibold">DAO гэж юу вэ?</span>
                                                         </Disclosure.Button>
                                                     </div>
                                                 </Disclosure>
@@ -57,7 +57,7 @@ export default function Hamburger() {
                                             <Disclosure>
                                                 <div className="" onClick={handleToggle}>
                                                     <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
-                                                        <span className="font-semibold">What is Ardmoney</span>
+                                                        <span className="font-semibold">АрдМааний гэж юу вэ?</span>
                                                     </Disclosure.Button>
                                                 </div>
                                             </Disclosure>
@@ -72,7 +72,7 @@ export default function Hamburger() {
                                             <Disclosure>
                                                 <div className="" onClick={handleToggle}>
                                                     <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
-                                                        <span className="font-semibold">RoadMap</span>
+                                                        <span className="font-semibold">Төлөвлөгөө</span>
                                                     </Disclosure.Button>
                                                 </div>
                                             </Disclosure>
@@ -87,7 +87,7 @@ export default function Hamburger() {
                                             <Disclosure>
                                                 <div className="" onClick={handleToggle}>
                                                     <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
-                                                        <span className="font-semibold">Eco System</span>
+                                                        <span className="font-semibold">Экосистем</span>
                                                     </Disclosure.Button>
                                                 </div>
                                             </Disclosure>
@@ -102,22 +102,7 @@ export default function Hamburger() {
                                             <Disclosure>
                                                 <div className="" onClick={handleToggle}>
                                                     <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
-                                                        <span className="font-semibold">Work Team</span>
-                                                    </Disclosure.Button>
-                                                </div>
-                                            </Disclosure>
-                                        </div>
-                                    </div>
-                                    </a>
-                                </li>  
-                                <li className="mb-1">
-                                    <a href="#Our">
-                                    <div className="flex w-full p-4 text-sm font-semibold text-white rounded cursor-pointer space-x-3">
-                                        <div className="w-full">
-                                            <Disclosure>
-                                                <div className="" onClick={handleToggle}>
-                                                    <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
-                                                        <span className="font-semibold">OurVision</span>
+                                                        <span className="font-semibold">Баг</span>
                                                     </Disclosure.Button>
                                                 </div>
                                             </Disclosure>
@@ -133,6 +118,21 @@ export default function Hamburger() {
                                                 <div className="" onClick={handleToggle}>
                                                     <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
                                                         <span className="font-semibold">FAQ</span>
+                                                    </Disclosure.Button>
+                                                </div>
+                                            </Disclosure>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </li>  
+                                <li className="mb-1">
+                                    <a href="/litepaper.pdf">
+                                    <div className="flex w-full p-4 text-sm font-semibold text-white rounded cursor-pointer space-x-3">
+                                        <div className="w-full">
+                                            <Disclosure>
+                                                <div className="" onClick={handleToggle}>
+                                                    <Disclosure.Button className="flex justify-between w-full py-1 text-sm font-medium text-left text-white ">
+                                                        <span className="font-semibold">Litepaper</span>
                                                     </Disclosure.Button>
                                                 </div>
                                             </Disclosure>

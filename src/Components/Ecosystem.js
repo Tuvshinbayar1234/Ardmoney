@@ -45,7 +45,7 @@ const Ecosystem = () => {
             <img src={Eco} width="500px" height="500px" />
           </div>
           <div className="relative flex flex-col justify-center top-2 md:right-9">
-            <h1 className="mx-5 mb-6 text-5xl font-semibold text-center text-white md:text-left">Ecosystem</h1>
+            <h1 className="mx-5 mb-6 text-5xl font-semibold text-center text-white md:text-left">Экосистем</h1>
             <div className="flex my-6 space-x-16 xl:ml-5">
               <h1 className={`${isActive(1)} uppercase hidden text-lg text-white cursor-pointer font-extralight w-32 xl:block`} onClick={() => setActiveSection(1)}>Layer 1</h1>
               <h1 className={`${isActive(2)} uppercase hidden text-lg text-white cursor-pointer font-extralight w-32 xl:block`} onClick={() => setActiveSection(2)}>Layer 2</h1>
