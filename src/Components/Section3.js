@@ -12,7 +12,7 @@ const Section3 = () => {
           </div>
           <div className="flex flex-col justify-center mb-10 sm:w-6/12">
             <h1 className="hidden text-2xl text-center text-white xl:text-5xl xl:text-justify xl:block">AрдМааний гэж юу вэ?</h1>
-            <p className="relative mt-5 text-center text-white font-extralight xl:text-justify left-5">АрдМааний нь эзэмшигчдэдээ дундын зуучлагчгүйгээр зээл, хадгаламж, ашиг олборлолт зэрэг санхүүгийн үйлчилгээг авах боломжийг олгодог DAO (Decentralized Autonomous Organization) протокол юм. Та Ардмааний протокол дээр хөрөнгөө хадгалан, өгөөж хүртэх боломжтойгоос гадна түргэн шуурхай арилжаа хийх боломжтой байх болно.</p>
+            <p className="relative mt-5 text-center text-white font-extralight xl:text-justify md:left-5">АрдМааний нь эзэмшигчдэдээ дундын зуучлагчгүйгээр зээл, хадгаламж, ашиг олборлолт зэрэг санхүүгийн үйлчилгээг авах боломжийг олгодог DAO (Decentralized Autonomous Organization) протокол юм. Та Ардмааний протокол дээр хөрөнгөө хадгалан, өгөөж хүртэх боломжтойгоос гадна түргэн шуурхай арилжаа хийх боломжтой байх болно.</p>
           </div>
         </div>
       </div>

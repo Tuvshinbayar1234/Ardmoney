@@ -28,7 +28,7 @@ const Ecosystem = () => {
     let temp = dummy.filter(singleData => singleData.id == id)
 
     return (
-      <div className="w-full mb-5 ml-5 text-left">
+      <div className="w-full mx-2 mb-5 text-sm text-center md:text-left md:mx-0 md:ml-5">
         <h1 className="mt-4 text-white xl:w-full">{temp[0].data}</h1>
         <h1 className="mt-4 text-white xl:w-full">{temp[0].list}</h1>
         <h1 className="mt-4 text-white xl:w-full">{temp[0].list2}</h1>
@@ -53,15 +53,15 @@ const Ecosystem = () => {
             </div>
             <div className="flex items-center justify-center block xl:hidden">
               <div onClick={() => setActiveSection(1)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+                <h1 className="text-center text-yellow-200 cursor-pointer">Layer 1</h1>
               </div>
               <div className="w-12 h-1" style={{backgroundColor: '#41404F'}}></div>
               <div onClick={() => setActiveSection(2)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+                <h1 className="text-center text-yellow-200 cursor-pointer">Layer 2</h1>
               </div>
               <div className="w-12 h-1" style={{backgroundColor: '#41404F'}}></div>
               <div onClick={() => setActiveSection(3)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+                <h1 className="text-center text-yellow-200 cursor-pointer">Layer 3</h1>
               </div>
 
             </div>
@@ -69,7 +69,7 @@ const Ecosystem = () => {
               {findActiveData(activeSection)}
             </div>
             <div className="flex justify-between block mb-20 xl:hidden">
-              <div className="mx-5 mt-10 border-t-2 border-l-2 border-gray-600 shadow-2xl rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+              <div className="mx-2 mt-10 border-t-2 border-l-2 border-gray-600 shadow-2xl rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
                 {findActiveData(activeSection)}
               </div>
             </div>

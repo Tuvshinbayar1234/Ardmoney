@@ -47,7 +47,7 @@ const Section4 = () => {
     return (
       <div className="mb-5 ml-2">
         <h1 className="mt-2 text-2xl font-semibold text-yellow-400 mx-1.5">{temp[0].title}</h1>
-        <div className="relative mt-4 left-2">
+        <div className="relative mt-4 md:left-2">
           <h1 className="mt-2 text-sm text-white mx-1.5">{temp[0].data}</h1>
           <h1 className="mt-2 text-sm text-white mx-1.5">{temp[0].list}</h1>
           <h1 className="mt-2 text-sm text-white mx-1.5">{temp[0].list2}</h1>

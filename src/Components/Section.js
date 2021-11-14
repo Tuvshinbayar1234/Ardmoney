@@ -12,8 +12,8 @@ const Section = () => {
           <p className="hidden w-2/3 mt-10 text-lg text-white font-extralight xl:block">Таны төвлөрсөн бус, бие даасан санхүүгийн оролцооны гарц.</p>
 
           <div className="hidden xl:block">
-            <div className="flex items-center justify-center mt-10 text-center rounded-lg w-60 h-11 bg-red-50">
-              <a href="#" className="flex items-center justify-center font-extrabold tracking-wider text-center uppercase">Whitepaper <FaArrowRight className="flex items-center justify-center ml-6 text-sm font-thin" /></a>
+            <div className="flex items-center justify-center mt-10 text-center rounded-lg h-14 w-72 bg-red-50">
+              <a href="/litepaper.pdf" className="flex items-center justify-center font-extrabold tracking-wider text-center uppercase">Урьдчилсан ТТЭЗҮ <FaArrowRight className="flex items-center justify-center ml-6 text-sm font-thin" /></a>
             </div>
           </div>
         </div>

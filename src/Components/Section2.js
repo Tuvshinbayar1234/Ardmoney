@@ -36,7 +36,7 @@ const Section2 = () => {
     )
   }
 
-  let mobileButtonTextStyle = (idx) => `${activeSection == idx ? "text-white" : "text-yellow-200" } text-center cursor-pointer`;
+  let mobileButtonTextStyle = (idx) => `${activeSection == idx ? "text-white" : "text-yellow-200" } uppercase text-center cursor-pointer`;
 
   return (
     <div id="Res" className="w-full" style={{backgroundColor: '#373544'}}>
@@ -46,20 +46,20 @@ const Section2 = () => {
         <div className="flex">
           <div className="leftSide">
             <div className="flex w-6/12 py-5 space-x-16">
-              <h1 className={`hidden w-16 text-2xl font-light ${isActive(1)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(1)}>Dao</h1>
-              <h1 className={`hidden w-16 text-2xl font-light ${isActive(2)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(2)}>Defi</h1>
-              <h1 className={`hidden w-16 text-2xl font-light ${isActive(3)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(3)}>Dex</h1>
+              <h1 className={`hidden w-16 text-2xl uppercase font-light ${isActive(1)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(1)}>Dao</h1>
+              <h1 className={`hidden w-16 text-2xl uppercase font-light ${isActive(2)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(2)}>Defi</h1>
+              <h1 className={`hidden w-16 text-2xl uppercase font-light ${isActive(3)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(3)}>Dex</h1>
             </div>
 
             <div className="flex flex-col items-center block text-xl xl:hidden">
               <div onClick={() => setActiveSection(1)} className="flex items-center justify-center block w-full h-6 py-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className={mobileButtonTextStyle(1)}>Dao</h1>
+                <h1 className={mobileButtonTextStyle(1)}>DAO</h1>
               </div>
               <div onClick={() => setActiveSection(2)} className="flex items-center justify-center block w-full h-6 py-6 my-8 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className={mobileButtonTextStyle(2)}>Defi</h1>
+                <h1 className={mobileButtonTextStyle(2)}>DEFI</h1>
               </div>
               <div onClick={() => setActiveSection(3)} className="flex items-center justify-center block w-full h-6 py-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className={mobileButtonTextStyle(3)}>Dex</h1>
+                <h1 className={mobileButtonTextStyle(3)}>DEX</h1>
               </div>
             </div>
 

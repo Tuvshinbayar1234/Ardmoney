@@ -17,7 +17,7 @@ const Nav = () =>{
                     <a href="#Eco" className="pl-4 hover:text-yellow-200">Экосистем</a>
                     <a href="#Work" className="pl-4 hover:text-yellow-200">Баг</a>
                     <a href="#FAQ" className="pl-4 hover:text-yellow-200">FAQ</a>
-                    <a href="" className="pl-4 hover:text-yellow-200">Litepaper</a>
+                    <a href="/litepaper.pdf" className="pl-4 hover:text-yellow-200">Litepaper</a>
                 </div>
             </div>
             

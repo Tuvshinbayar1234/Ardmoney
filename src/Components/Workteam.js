@@ -53,7 +53,7 @@ const Workteam = () => {
 
 
   return (
-    <div id="Work" className="w-full pb-5" style={{backgroundImage: `url(${Team})`, backgroundSize: '100% 100%'}}>
+    <div id="Work" className="w-full pb-5" style={{backgroundColor: `#1c1b24`}}>
       <div className="container flex flex-col mx-auto py-36">
         <div className="pb-20 lg:pl-16">
           <h1 className="relative text-xl font-bold text-center text-white md:text-left md:text-5xl md:-left-20">Менежментийн баг</h1>
