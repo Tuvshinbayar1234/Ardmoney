@@ -20,7 +20,7 @@ const Ecosystem = () => {
     {
       id: 3,
       data: "1. Governance протоколыг ашиглан хэрэглэгчид шинэчлэлүүдэд бүрэн саналын эрхтэй оролцох.",
-      list: "2. Wormhole bridge технологийг ашиглан BSC, Ethereum, Polygon, Terra, Solana блокчэйн сүлжээ хоорондын интеграци хийх.",
+      list: "2. BSC, Ethereum, Polygon, Terra, Solana блокчэйн сүлжээ хоорондын интеграци хийх.",
     }
   ]
 
