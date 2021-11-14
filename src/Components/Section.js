@@ -24,7 +24,7 @@ const Section = () => {
           <h1 className="text-xl italic font-bold text-white">Монголын анхны DAO төсөл</h1>
           <p className="mt-10 text-lg text-white font-extralight">Таны төвлөрсөн бус, бие даасан санхүүгийн оролцооны гарц</p>
           <div className="flex justify-center mt-16">
-            <img src={BigCoin} alt="coin-img" width="200px" height="200px" />
+            <img src={BigCoin} className="w-52 h-52" alt="coin-img" />
           </div>
         </div>
       </div>
