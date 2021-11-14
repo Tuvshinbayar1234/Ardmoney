@@ -55,15 +55,15 @@ const Workteam = () => {
   return (
     <div id="Work" className="w-full pb-5" style={{backgroundImage: `url(${Team})`, backgroundSize: '100% 100%'}}>
       <div className="container flex flex-col mx-auto py-36">
-        <div className="mx-2.5 pb-20 lg:pl-16">
-          <h1 className="relative mx-5 text-xl font-bold text-center text-white md:text-5xl md:-left-20">Менежментийн баг</h1>
+        <div className="pb-20 lg:pl-16">
+          <h1 className="relative text-xl font-bold text-center text-white md:text-left md:text-5xl md:-left-20">Менежментийн баг</h1>
         </div>
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
             <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
               <img className="rounded-full w-44" src={Eegii} />
               <h1 className="mt-5 text-xl text-white">М. Энх-Амгалан</h1>
-              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн ерөнхий удирдагч.</p>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн ерөнхий удирдагч</p>
             </div>
             {/* <div className="flex flex-col items-center justify-center mt-5 rounded-xl"> */}
             {/*   <img className="rounded-full w-44" src={Odko} /> */}
@@ -79,7 +79,7 @@ const Workteam = () => {
             <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
               <img className="rounded-full w-44" src={EnkhUliral} />
               <h1 className="mt-5 text-xl text-white">М. Энx-Улирал</h1>
-              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Co-Founder at CryptoPuujin</p>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн судалгааны ахлах</p>
             </div>
 
             <div className="flex flex-col items-center justify-center mt-5 rounded-xl">

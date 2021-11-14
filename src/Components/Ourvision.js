@@ -14,10 +14,8 @@ const Ourvision = () => {
                 <div className="flex flex-col items-center justify-center lg:flex-row">
                     <div className="flex flex-col items-center justify-center w-full xl:h-96 xl:w-4/12">
                         <img src={Electric} />
-                        <h1 className="flex items-center justify-center mb-3 text-lg font-semibold text-center text-white xl:text-lg">
-                            Хамгийн хурдан
-                        </h1>
-                        <p className="flex items-center justify-center w-3/4 text-xs text-center text-white">Солана сүлжээ нь 1 секундэд 50.000 гүйлгээ батлах чадвартай. Энэ нь АрдМааний протокол хамгийн хурдан санхүүгийн үйлчилгээг үзүүлнэ гэсэн үг юм.</p>
+                        <h1 className="flex items-center justify-center mb-3 text-lg font-semibold text-center text-white xl:text-lg">Гадаслах (Staking)</h1>
+                        <p className="flex items-center justify-center w-3/4 text-xs text-center text-white">Гадаслах хөтөлбөрөөр хадгаламжаас илүү өгөөж хүртэх боломжтой. Эзэмшигч нь АрдМааний токены эзэмшлээ гадаслах буюу түгжсэнээр өгөөж хүртэх боломжтой.</p>
                     </div>
                     <div className="flex flex-col items-center justify-center w-full xl:h-96 xl:w-4/12">
                         <img src={Water} />

@@ -14,11 +14,10 @@ const Nav = () =>{
                     <a href="#Res" className="pl-4 hover:text-yellow-200">DAO гэж юу вэ?</a>
                     <a href="#What" className="pl-4 hover:text-yellow-200">АрдМааний гэж юу вэ?</a>
                     <a href="#Road" className="pl-4 hover:text-yellow-200">Төлөвлөгөө</a>
-                    <a href="#Eco" className="pl-4 hover:text-yellow-200">Eco System</a>
-                    <a href="#Work" className="pl-4 hover:text-yellow-200">Экосистем</a>
-                    <a href="#Our" className="pl-4 hover:text-yellow-200">Баг</a>
+                    <a href="#Eco" className="pl-4 hover:text-yellow-200">Экосистем</a>
+                    <a href="#Work" className="pl-4 hover:text-yellow-200">Баг</a>
                     <a href="#FAQ" className="pl-4 hover:text-yellow-200">FAQ</a>
-                    <a href="#FAQ" className="pl-4 hover:text-yellow-200">Litepaper</a>
+                    <a href="" className="pl-4 hover:text-yellow-200">Litepaper</a>
                 </div>
             </div>
             
