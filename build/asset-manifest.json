@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c501b4c4.chunk.css",
-    "main.js": "/static/js/main.449ea03a.chunk.js",
-    "main.js.map": "/static/js/main.449ea03a.chunk.js.map",
+    "main.js": "/static/js/main.b6fa561a.chunk.js",
+    "main.js.map": "/static/js/main.b6fa561a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d34000d9.js",
     "runtime-main.js.map": "/static/js/runtime-main.d34000d9.js.map",
     "static/js/2.7fb713a8.chunk.js": "/static/js/2.7fb713a8.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/chuky.68b9aa93.jpeg": "/static/media/chuky.68b9aa93.jpeg",
     "static/media/cube.e9a44197.png": "/static/media/cube.e9a44197.png",
     "static/media/eegii.93344728.jpg": "/static/media/eegii.93344728.jpg",
-    "static/media/odko.4b43fe63.jpg": "/static/media/odko.4b43fe63.jpg",
+    "static/media/od.88fe2537.jpeg": "/static/media/od.88fe2537.jpeg",
     "static/media/orgil.3afbe1ee.jpeg": "/static/media/orgil.3afbe1ee.jpeg",
     "static/media/team.0754abd7.png": "/static/media/team.0754abd7.png",
     "static/media/tokenomic_chart.18292de2.png": "/static/media/tokenomic_chart.18292de2.png",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.d34000d9.js",
     "static/js/2.7fb713a8.chunk.js",
     "static/css/main.c501b4c4.chunk.css",
-    "static/js/main.449ea03a.chunk.js"
+    "static/js/main.b6fa561a.chunk.js"
   ]
 }

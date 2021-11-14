@@ -10,7 +10,7 @@ import Chuky from "../assets/chuky.jpeg"
 // import Od from "../assets/od.jpeg"
 
 import Eegii from "../assets/eegii.jpg"
-import Odko from "../assets/odko.jpg"
+import Odko from "../assets/od.jpeg"
 import Undral from "../assets/undral.jpg"
 
 import Zolboo from "../assets/team/cryptopuujin/zolboo.jpg"
@@ -65,11 +65,11 @@ const Workteam = () => {
               <h1 className="mt-5 text-xl text-white">М. Энх-Амгалан</h1>
               <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн ерөнхий удирдагч</p>
             </div>
-            {/* <div className="flex flex-col items-center justify-center mt-5 rounded-xl"> */}
-            {/*   <img className="rounded-full w-44" src={Odko} /> */}
-            {/*   <h1 className="mt-5 text-xl text-white">Г.Мөнх-Од</h1> */}
-            {/*   <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн хөгжүүлэгч</p> */}
-            {/* </div> */}
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Odko} />
+              <h1 className="mt-5 text-xl text-white">Г.Мөнх-Од</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн ахлах хөгжүүлэгч</p>
+            </div>
             <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
               <img className="rounded-full w-44" src={Anhaa} />
               <h1 className="mt-5 text-xl text-white">Д. Анхбаясгалан</h1>
