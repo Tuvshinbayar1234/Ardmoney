@@ -9,35 +9,35 @@ const Section4 = () => {
     {
       id: 1,
       title: 'Эхний үе шат',
-      data: "AMM-тэй DEX хөгжүүлэлт",
-      list: 'ARDM токен нэвтрүүлэлт',
-      list2: 'SPL, ERC20, BEP20 хувилбарын хөгжүүлэлт, нэвтрүүлэлт',
-      list3: 'Дотоодын төвлөрсөн бирж дээрх бүртгэл;',
-      list4: 'DAO засаглалын платформ хөгжүүлэлт;',
+      data: "* AMM-тэй DEX хөгжүүлэлт",
+      list: '* ARDM токен нэвтрүүлэлт',
+      list2: '* SPL, ERC20, BEP20 хувилбарын хөгжүүлэлт, нэвтрүүлэлт',
+      list3: '* Дотоодын төвлөрсөн бирж дээрх бүртгэл;',
+      list4: '* DAO засаглалын платформ хөгжүүлэлт;',
     },
     {
       id: 2,
       title: 'Хоёр дахь үе шат',
       // data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!2",
-      list: 'BSC, Ethereum, Polygon, Terra, Solana блокчэйн сүлжээ хоорондын интеграци',
-      list2: 'Нэмэлт хөрөнгө босголт',
-      list3: 'Хэтэвчний экосистем',
-      list4: 'Төсөл бойжуулах хөтөлбөр',
-      list5: 'Аудит (black box, white box)',
-      list6: 'Төвлөрсөн бус хадгаламжийн үйлчилгээ',
-      list7: 'Төвлөрсөн бус зээлийн үйлчилгээ',
+      list: '* BSC, Ethereum, Polygon, Terra, Solana блокчэйн сүлжээ хоорондын интеграци',
+      list2: '* Нэмэлт хөрөнгө босголт',
+      list3: '* Хэтэвчний экосистем',
+      list4: '* Төсөл бойжуулах хөтөлбөр',
+      list5: '* Аудит (black box, white box)',
+      list6: '* Төвлөрсөн бус хадгаламжийн үйлчилгээ',
+      list7: '* Төвлөрсөн бус зээлийн үйлчилгээ',
     },
     {
       id: 3,
       title: 'Гурав дахь үе шат',
       // data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list: 'Сайжруулсан хэтэвч болон хадгаламжийн үйлчилгээ',
-      list3: 'АрдМааний ирээдүйн экосистемийн хөгжүүлэлт',
-      list4: 'Сайн дурын хөгжүүлэгчдийг урамшуулах хөтөлбөр',
-      list5: 'Нээлттэй хөгжүүлэлтийн код',
-      list6: 'Хэтэвчний хуулга үүсгэх үйлчилгээ',
-      list7: 'NFT үүсгэн хадгалах боломж',
-      list8: 'Олон улсын төвлөрсөн бус биржүүд дээрх бүртгэл',
+      list: '* Сайжруулсан хэтэвч болон хадгаламжийн үйлчилгээ',
+      list3: '* АрдМааний ирээдүйн экосистемийн хөгжүүлэлт',
+      list4: '* Сайн дурын хөгжүүлэгчдийг урамшуулах хөтөлбөр',
+      list5: '* Нээлттэй хөгжүүлэлтийн код',
+      list6: '* Хэтэвчний хуулга үүсгэх үйлчилгээ',
+      list7: '* NFT үүсгэн хадгалах боломж',
+      list8: '* Олон улсын төвлөрсөн бус биржүүд дээрх бүртгэл',
     }
   ]
 
@@ -74,7 +74,7 @@ const Section4 = () => {
 
 
   return (
-    <div id="Road" className="w-full py-16 md:py-32" style={{backgroundColor: '#1C1B24'}}>
+    <div id="Road" className="w-full " style={{backgroundColor: '#1C1B24'}}>
       <h1 className="relative pb-10 text-2xl font-semibold text-center text-white xl:text-6xl xl:py-20 xl:-mb-56">АрдМааний төлөвлөгөө</h1>
       <div className="container relative w-full mx-auto xl-top-52">
         <div className="flex items-center justify-around">
