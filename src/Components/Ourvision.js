@@ -12,21 +12,21 @@ const Ourvision = () => {
                     <h1 className="text-2xl xl:text-5xl mb-5 text-center font-semibold text-white">Онцлог</h1>
                 </div>
                 <div className="flex lg:flex-row flex-col items-center">
-                    <div className="flex flex-col justify-center items-center w-full xl:h-96 xl:w-4/12">
+                    <div className="flex flex-col justify-center items-center w-full xl:h-96 xl:w-4/12 mb-5">
                         <img src={Electric} />
                         <h1 className="text-lg xl:text-lg font-semibold text-center text-white">
                             Хамгийн хурдан
                         </h1>
                         <p className="text-xs w-3/4 text-center text-white">Солана сүлжээ нь 1 секундэд 50.000 гүйлгээ батлах чадвартай. Энэ нь АрдМааний протокол хамгийн хурдан санхүүгийн үйлчилгээг үзүүлнэ гэсэн үг юм.</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center w-full xl:h-96 xl:w-4/12">
+                    <div className="flex flex-col justify-center items-center w-full xl:h-96 xl:w-4/12 mb-5">
                         <img src={Water} />
                         <h1 className="text-lg xl:text-lg font-semibold text-center text-white">
                         Wormhole: Олон сүлжээт холбоо
                         </h1>
                         <p className="text-xs w-3/4 text-center text-white">АрдМааний нь Солана, Этериум, Байнанс Смарт Чэйн, Терра болон Полигон сүлжээнүүдэд зэрэг оршиж, сүлжээ хооронд шилжих боломжтой.</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center w-full xl:h-96 xl:w-4/12">
+                    <div className="flex flex-col justify-center items-center w-full xl:h-96 xl:w-4/12 mb-5">
                         <img src={Exchange} />
                         <h1 className="text-lg xl:text-lg font-semibold text-center text-white">
                         DEX: Төвлөрсөн бус бирж

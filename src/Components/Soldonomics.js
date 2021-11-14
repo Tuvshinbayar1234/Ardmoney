@@ -8,7 +8,7 @@ const Soldonomics = () => {
                 <div className="">
                     <h1 className="text-2xl xl:text-4xl font-semibold text-center text-white">АрдМааний Тархалт</h1>
                 </div>
-                <div className="flex justify-center items-center mt-20">
+                <div className="mx-5 flex justify-center items-center mt-10">
                     <img src={Grapic} />
                 </div>
             </div>

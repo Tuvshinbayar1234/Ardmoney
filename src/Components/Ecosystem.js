@@ -36,12 +36,12 @@ const Ecosystem = () => {
         let temp = dummy.filter(singleData => singleData.id == id)
 
         return (
-            <div className="w-full">
-                <h1 className="mt-10 text-2xl font-semibold text-yellow-400">{temp[0].title}</h1>
-                <h1 className="mt-10 text-white xl:w-full">{temp[0].data}</h1>
-                <h1 className="mt-10 text-white xl:w-full">{temp[0].list}</h1>
-                <h1 className="mt-10 text-white xl:w-full">{temp[0].list2}</h1>
-                <h1 className="mt-10 text-white xl:w-full">{temp[0].list3}</h1>
+            <div className="w-full mb-5 ml-5">
+                <h1 className="mt-5 text-2xl font-semibold text-yellow-400">{temp[0].title}</h1>
+                <h1 className="mt-4 text-white xl:w-full">{temp[0].data}</h1>
+                <h1 className="mt-4 text-white xl:w-full">{temp[0].list}</h1>
+                <h1 className="mt-4 text-white xl:w-full">{temp[0].list2}</h1>
+                <h1 className="mt-4 text-white xl:w-full">{temp[0].list3}</h1>
             </div>
         )
     }
@@ -55,7 +55,7 @@ const Ecosystem = () => {
                     </div>
                     <div className="">
                         <div className="">
-                            <h1 className="xl:text-6xl text-2xl text-white font-semibold">Ecosystem</h1>
+                            <h1 className="xl:text-6xl text-2xl mx-5 text-white font-semibold">Ecosystem</h1>
                         </div>
                         <div className="flex space-x-16 mt-10">
                             <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(1)}>High gas fees</h1>

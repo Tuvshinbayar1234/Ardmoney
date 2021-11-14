@@ -62,7 +62,7 @@ const Section4 = () => {
         let temp = dummy.filter(singleData => singleData.id == id)
 
         return (
-            <div>
+            <div className="mb-5 ml-2">
                 <h1 className="mt-2 text-2xl font-semibold text-yellow-400 mx-1.5">{temp[0].title}</h1>
                 <h1 className="mt-2 text-sm text-white mx-1.5">{temp[0].data}</h1>
                 <h1 className="mt-2 text-sm text-white mx-1.5">{temp[0].list}</h1>
@@ -90,8 +90,8 @@ const Section4 = () => {
 
     return(
         <div className="h-fulll w-full py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
-            <h1 className="text-white font-semibold text-center text-2xl xl:text-6xl relative">АрдМааний төлөвлөгөө</h1>
-            <div className="container mx-auto relative -top-14 w-full">
+            <h1 className="text-white font-semibold text-center text-2xl xl:text-6xl xl:py-20 mb-10">АрдМааний төлөвлөгөө</h1>
+            <div className="container mx-auto relative xl-top-52 w-full">
                 <div className="flex justify-around items-center">
                     <div className="hidden xl:block">
                         <div className="flex flex-row justify-center items-center">

@@ -28,9 +28,9 @@ const Section2 = () => {
         let temp = dummy.filter(singleData => singleData.id == id)
 
         return (
-            <div className="ml-10 sm:ml-0">
-                <h1 className="mt-10 text-4xl w-2/5 font-semibold text-white">{temp[0].title}</h1>
-                <h1 className="mt-10 text-white xl:w-3/5">{temp[0].data}</h1>
+            <div className="ml-5 sm:ml-0">
+                <h1 className="mt-5 text-2xl xl:text-4xl font-semibold text-white">{temp[0].title}</h1>
+                <h1 className="mt-5 mb-5 text-sm xl:text-base text-white xl:w-3/5">{temp[0].data}</h1>
             </div>
         )
     }
@@ -60,7 +60,7 @@ const Section2 = () => {
                     
                 </div>
                 {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600' style={{top:'105%', zIndex: '0'}}></div> */}
-                <div className="container mx-5 flex justify-evenly pb-48">
+                <div className="container mx-5 flex justify-evenly xl:pb-72">
                     <div className="shadow-2xl border-l-2 border-t-2 border-gray-600 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
                     {
                         findActiveData(activeSection)
