@@ -29,7 +29,7 @@ const Section2 = () => {
 
         return (
             <div className="ml-10 sm:ml-0">
-                <h1 className="mt-10 text-2xl w-full font-semibold text-white">{temp[0].title}</h1>
+                <h1 className="mt-10 text-2xl w-full font-semibold text-yellow-400">{temp[0].title}</h1>
                 <h1 className="mt-10 text-white xl:w-3/5">{temp[0].data}</h1>
             </div>
         )
@@ -46,22 +46,22 @@ const Section2 = () => {
                 </div>
                 <div className=" flex justify-center items-center ml-10 block xl:hidden">
                     
-                    <div onClick={() => setActiveSection(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl bg-yellow-600 justify-center items-center">
+                    <div onClick={() => setActiveSection(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
                         <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                     </div>
-                    <div className="w-12 h-1 bg-yellow-600"></div>
-                    <div onClick={() => setActiveSection(2)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl bg-yellow-600 justify-center items-center">
+                    <div className="w-12 h-1" style={{backgroundColor:'#41404F'}}></div>
+                    <div onClick={() => setActiveSection(2)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
                         <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                     </div>
-                    <div className="w-12 h-1 bg-yellow-600"></div>
-                    <div onClick={() => setActiveSection(3)} className="flex block xl:hidden w-20 h-6 rounded-xl cursor-pointer bg-yellow-600 justify-center items-center">
+                    <div className="w-12 h-1" style={{backgroundColor:'#41404F'}}></div>
+                    <div onClick={() => setActiveSection(3)} className="flex block xl:hidden w-20 h-6 rounded-xl cursor-pointer justify-center items-center" style={{backgroundColor:'#41404F'}}>
                         <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                     </div>
                     
                 </div>
                 {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600' style={{top:'105%', zIndex: '0'}}></div> */}
                 <div className="container mx-5 flex justify-evenly">
-                    <div className="shadow-2xl border-l-2 border-t-2 border-yellow-500 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
+                    <div className="shadow-2xl border-l-2 border-t-2 border-gray-600 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
                     {
                         findActiveData(activeSection)
                     }

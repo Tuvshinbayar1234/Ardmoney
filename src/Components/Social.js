@@ -12,22 +12,31 @@ const Socials = () =>{
                     <div className="flex xl:flex-row flex-col justify-center mt-10 items-center">
                         
                         <div className="flex justify-center mt-10 xl:mt-0 space-x-4">
-                            <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 rounded-full flex justify-center items-center">
-                                <FaTwitter className="xl:w-6/12 xl:h-3/6 w-8 h-8 " color="white" />
-                            </div>
-                            <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 rounded-full flex justify-center items-center">
-                                <FaInstagram className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
-                            </div>
-                            <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 rounded-full flex justify-center items-center">
-                                <FaFacebookF className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
-                            </div>
-                            <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 rounded-full flex justify-center items-center">
-                                <FaWhatsapp className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
-                            </div>
-                            <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 rounded-full flex justify-center items-center">
-                                <FaDiscord className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
-                            </div>
-                        
+                            <a href="#" target="_blank">
+                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
+                                    <FaTwitter className="xl:w-6/12 xl:h-3/6 w-8 h-8 " color="white" />
+                                </div>
+                            </a>
+                            <a href="#" target="_blank">
+                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
+                                    <FaInstagram className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                </div>
+                            </a>
+                            <a href="#" target="_blank">
+                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
+                                    <FaFacebookF className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                </div>
+                            </a>
+                            <a href="#" target="_blank">
+                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
+                                    <FaWhatsapp className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                </div>
+                            </a>
+                            <a href="#" target="_blank">
+                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
+                                    <FaDiscord className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                </div>
+                            </a>
                         </div>
                         <div>
                         

@@ -11,7 +11,7 @@ const Section4 = () => {
             title: 'Resolving dex issues',
             data: "*ARDM токен нэвтрүүлэлт",
             list: '*SPL, ERC20, BEP20 хувилбарууд',
-            list2: '*SPL, ERC20, BEP20 хувилбарууд',
+            list2: '*SPL, ERC20, BEP20 хувилбарууд *SPL, ERC20, BEP20 хувилбарууд *SPL, ERC20, BEP20 хувилбарууд *SPL, ERC20, BEP20 хувилбарууд',
             list3: '*SPL, ERC20, BEP20 хувилбарууд',
             list4: '*SPL, ERC20, BEP20 хувилбарууд',
             list5: '*SPL, ERC20, BEP20 хувилбарууд',
@@ -99,7 +99,7 @@ const Section4 = () => {
                     <div className={styles.block}></div>
                     <div className={styles.block2}>
                         <div onClick={() => setClick(1)} className="flex">
-                            <div className={`${styles.circle} hover:bg-red-100 cursor-pointer`}></div>
+                            <div className={`${styles.circle} hover:bg-red-500 cursor-pointer`}></div>
                             {/* <h1 className=" top-14 left-auto -right-32 absolute cursor-pointer text-yellow-400">Эхний үе шат</h1> */}
                         </div>
                         <div onClick={() => setClick(2)} className="">
@@ -112,21 +112,21 @@ const Section4 = () => {
                         </div>
                     </div>
                     </div>
-                    <div className="flex flex-col block xl:hidden">
+                    <div className="flex flex-col block xl:hidden mr-36">
                             <div className="flex justify-center items-center ml-10 block xl:hidden ">
-                                <div onClick={() => setClick(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl bg-yellow-600 justify-center items-center">
+                                <div onClick={() => setClick(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
                                     <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                                 </div>
-                                <div className="w-12 h-1 bg-yellow-600"></div>
-                                <div onClick={() => setClick(2)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl bg-yellow-600 justify-center items-center">
+                                <div className="w-6 h-1" style={{backgroundColor:'#41404F'}}></div>
+                                <div onClick={() => setClick(2)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
                                     <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                                 </div>
-                                <div className="w-12 h-1 bg-yellow-600"></div>
-                                <div onClick={() => setClick(3)} className="flex block xl:hidden w-20 h-6 rounded-xl cursor-pointer bg-yellow-600 justify-center items-center">
+                                <div className="w-6 h-1" style={{backgroundColor:'#41404F'}}></div>
+                                <div onClick={() => setClick(3)} className="flex block xl:hidden w-20 h-6 rounded-xl cursor-pointer justify-center items-center" style={{backgroundColor:'#41404F'}}>
                                     <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
                                 </div>
                             </div>
-                            <div className="shadow-2xl border-l-2 border-t-2 border-yellow-500 mx-10 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+                            <div className="shadow-2xl border-l-2 border-t-2 w-10/12 border-gray-600 mx-10 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
                                 {
                                     HandleClick(click)
                                 }

@@ -1,5 +1,5 @@
 import react,{useState} from "react";
-
+import {FaTwitter, FaInstagram , FaFacebookF, FaWhatsapp, FaDiscord, FaLinkedinIn} from 'react-icons/fa'
 import Team from "../assets/team.png"
 import Eegii from "../assets/eegii.jpeg"
 import Tseku from "../assets/tseku.jpeg"
@@ -22,32 +22,32 @@ const Workteam = () => {
                     <img className="w-44 rounded-full" src={Eegii} />
                     <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
+                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                 </div>
                 <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Eegii} />
                     <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
+                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className=" hover:text-white cursor-pointer" /></a></p>
                 </div>
                 <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Eegii} />
                     <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
+                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className=" hover:text-white cursor-pointer" /></a></p>
                 </div>
                 
                 <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Chuky} />
                     <h1 className="text-xl mt-5 text-white">Д. Чадраабал</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
+                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className=" hover:text-white cursor-pointer" /></a></p>
                 </div>
                 <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                     <img className="w-44 rounded-full" src={Anhaa} />
                     <h1 className="text-xl mt-5 text-white">Д. Анхбаясгалан</h1>
                     <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
+                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className=" hover:text-white cursor-pointer" /></a></p>
                 </div>
             </div>
             
@@ -57,7 +57,7 @@ const Workteam = () => {
     
 
     return(
-        <div id="team" className="w-full" style={{backgroundImage: `url(${Team})` , backgroundSize: '100% 100%'}}>
+        <div id="team" className="w-full pb-5" style={{backgroundImage: `url(${Team})` , backgroundSize: '100% 100%'}}>
             <div className="container mx-auto flex flex-col">
                 <div className="mx-2.5 lg:pl-16">
                     <h1 className="font-bold text-2xl xl:text-3xl py-14 text-white">Төслийн баг</h1>
@@ -68,31 +68,31 @@ const Workteam = () => {
                                 <img className="w-44 rounded-full" src={Eegii} />
                                 <h1 className="text-xl mt-5 text-white">М. Энх-Амгалан</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Od} />
                                 <h1 className="text-xl mt-5 text-white">Г.Мөнх-Од</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Anhaa} />
                                 <h1 className="text-xl mt-5 text-white">Д. Анхбаясгалан</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">М. Энх-Улирал</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">А. Ундрал</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                         </div>
                         <div className="flex mt-10 flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
@@ -100,31 +100,31 @@ const Workteam = () => {
                                 <img className="w-44 rounded-full" src={Tulga} />
                                 <h1 className="text-xl mt-5 text-white">А. Амартүвшин</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Od} />
                                 <h1 className="text-xl mt-5 text-white">Т. Бумцэнд</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">О. Түвшинбаяр</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">М. Болортоль</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                             <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
                                 <img className="w-44 rounded-full" src={Orgil} />
                                 <h1 className="text-xl mt-5 text-white">Г. Ууганбат</h1>
                                 <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
+                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white flex justify-around w-full"><a href="#" target="_blank"><FaFacebookF className="hover:text-blue-600 cursor-pointer" /></a> <a href="#" target="_blank"><FaInstagram className=" hover:text-red-400 cursor-pointer" /></a><a href="#" target="_blank"><FaLinkedinIn className="hover:text-white cursor-pointer" /></a></p>
                             </div>
                         </div>
                 </div>
@@ -137,8 +137,8 @@ const Workteam = () => {
                 }
                 
                 <div className="flex items-center justify-center py-10 block lg:hidden">
-                    <div onClick={() => setShowMore(!showMore)} className="bg-yellow-600 p-5 rounded-lg hover:bg-blue-400 transition-all duration-200 cursor-pointer">
-                        <h1 className="font-bold text-white">Бусад гишүүд</h1>
+                    <div onClick={() => setShowMore(!showMore)} className="bg-white w-60 text-center items-center flex justify-center h-14 rounded-3xl hover:bg-blue-400 transition-all duration-200 cursor-pointer">
+                        <h1 className="font-bold text-black">Бусад гишүүд</h1>
                     </div>
                 </div>
             </div>
