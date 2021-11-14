@@ -1,5 +1,5 @@
-import react,{useState} from "react";
-import {FaTwitter, FaInstagram , FaFacebookF, FaWhatsapp, FaDiscord, FaLinkedinIn} from 'react-icons/fa'
+import react, {useState} from "react";
+import {FaTwitter, FaInstagram, FaFacebookF, FaWhatsapp, FaDiscord, FaLinkedinIn} from 'react-icons/fa'
 import Team from "../assets/team.png"
 import Eegii from "../assets/eegii.jpeg"
 import Tseku from "../assets/tseku.jpeg"
@@ -10,141 +10,162 @@ import Chuky from "../assets/chuky.jpeg"
 import Od from "../assets/od.jpeg"
 
 
-const Workteam = () => { 
-    
-    const [showMore, setShowMore] = useState(false);
+import Zolboo from "../assets/team/cryptopuujin/zolboo.jpg"
+import EnkhUliral from "../assets/team/cryptopuujin/Enkh-Uliral.jpg"
+import ChinTugsh from "../assets/team/cryptopuujin/Chintushig.jpg"
+import NarinGarig from "../assets/team/cryptopuujin/Garig.jpg"
 
-    const member = [
 
+
+
+const Workteam = () => {
+
+  const [showMore, setShowMore] = useState(false);
+
+  const member = [
+
+    <div className="container mx-auto">
+      <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={Eegii} />
+          <h1 className="mt-5 text-xl text-white">М.Энх-Амгалан</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
+
+        </div>
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={Eegii} />
+          <h1 className="mt-5 text-xl text-white">М.Энх-Амгалан</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
+
+        </div>
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={Eegii} />
+          <h1 className="mt-5 text-xl text-white">М.Энх-Амгалан</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
+
+        </div>
+
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={Chuky} />
+          <h1 className="mt-5 text-xl text-white">Д. Чадраабал</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={Anhaa} />
+          <h1 className="mt-5 text-xl text-white">Д. Анхбаясгалан</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={EnkhUliral} />
+          <h1 className="mt-5 text-xl text-white">М. Энx-Улирал</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Co-Founder at CryptoPuujin</p>
+        </div>
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={Zolboo} />
+          <h1 className="mt-5 text-xl text-white">Э. Золбоо</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Co-Founder at CryptoPuujin</p>
+        </div>
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={NarinGarig} />
+          <h1 className="mt-5 text-xl text-white">Г. Нарангариг</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Head Developer at CryptoPuujin</p>
+        </div>
+        <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+          <img className="rounded-full w-44" src={ChinTugsh} />
+          <h1 className="mt-5 text-xl text-white">Т. Чинтүшиг</h1>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Chief People Officer at CryptoPuujin</p>
+        </div>
+
+      </div>
+    </div>
+  ];
+
+
+
+  return (
+    <div id="Work" className="w-full pb-5" style={{backgroundImage: `url(${Team})`, backgroundSize: '100% 100%'}}>
+      <div className="container flex flex-col mx-auto py-36">
+        <div className="mx-2.5 pb-20 lg:pl-16">
+          <h1 className="relative mx-5 text-5xl font-bold text-white -left-20">Төслийн Баг</h1>
+        </div>
         <div className="container mx-auto">
-            <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
-                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                    <img className="w-44 rounded-full" src={Eegii} />
-                    <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
-                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
-                </div>
-                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                    <img className="w-44 rounded-full" src={Eegii} />
-                    <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
-                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
-                </div>
-                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                    <img className="w-44 rounded-full" src={Eegii} />
-                    <h1 className="text-xl mt-5 text-white">М.Энх-Амгалан</h1>
-                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
-                </div>
-                
-                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                    <img className="w-44 rounded-full" src={Chuky} />
-                    <h1 className="text-xl mt-5 text-white">Д. Чадраабал</h1>
-                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
-                </div>
-                <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                    <img className="w-44 rounded-full" src={Anhaa} />
-                    <h1 className="text-xl mt-5 text-white">Д. Анхбаясгалан</h1>
-                    <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн зөвлөх</p>
-                    
-                </div>
-            </div>
-            
-        </div>
-    ];
+          <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Eegii} />
+              <h1 className="mt-5 text-xl text-white">М. Энх-Амгалан</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн удирдагч</p>
 
-    
-
-    return(
-        <div id="Work" className="w-full pb-5" style={{backgroundImage: `url(${Team})` , backgroundSize: '100% 100%'}}>
-            <div className="container mx-auto flex flex-col">
-                <div className="mx-2.5 lg:pl-16">
-                    <h1 className="font-bold text-2xl xl:text-3xl mx-5 text-white">Төслийн баг</h1>
-                </div>
-                <div className="container mx-auto">
-                    <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Eegii} />
-                                <h1 className="text-xl mt-5 text-white">М. Энх-Амгалан</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Od} />
-                                <h1 className="text-xl mt-5 text-white">Г.Мөнх-Од</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Anhaa} />
-                                <h1 className="text-xl mt-5 text-white">Д. Анхбаясгалан</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">М. Энх-Улирал</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">А. Ундрал</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
-                            </div>
-                        </div>
-                        <div className="flex mt-10 flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Tulga} />
-                                <h1 className="text-xl mt-5 text-white">А. Амартүвшин</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн удирдагч</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Od} />
-                                <h1 className="text-xl mt-5 text-white">Т. Бумцэнд</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Блокчэйн хөгжүүлэгч</p>
-                                
-                            </div>
-                            
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">М. Болортоль</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">Г. Ууганбат</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
-                            </div>
-                            <div className=" rounded-xl flex flex-col justify-center items-center mt-5">
-                                <img className="w-44 rounded-full" src={Orgil} />
-                                <h1 className="text-xl mt-5 text-white">Г. Ууганбат</h1>
-                                <p className="text-center mt-2 font-extrabold lg:font-extrabold text-xs lg:text-base text-white">Төслийн менежер</p>
-                                
-                            </div>
-                        </div>
-                </div>
-                {
-                    showMore && member.map((item)=> 
-                    <div className="">
-                        {item}
-                    </div>
-                    )
-                }
-                
-                <div className="flex items-center justify-center py-10 block lg:hidden">
-                    <div onClick={() => setShowMore(!showMore)} className="bg-white w-60 text-center items-center flex justify-center h-14 rounded-3xl hover:bg-blue-400 transition-all duration-200 cursor-pointer">
-                        <h1 className="font-bold text-black">Бусад гишүүд</h1>
-                    </div>
-                </div>
             </div>
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Od} />
+              <h1 className="mt-5 text-xl text-white">Г.Мөнх-Од</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн хөгжүүлэгч</p>
+
+            </div>
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Anhaa} />
+              <h1 className="mt-5 text-xl text-white">Д. Анхбаясгалан</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн менежер</p>
+
+            </div>
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Orgil} />
+              <h1 className="mt-5 text-xl text-white">М. Энх-Улирал</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн менежер</p>
+
+            </div>
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Orgil} />
+              <h1 className="mt-5 text-xl text-white">А. Ундрал</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн менежер</p>
+            </div>
+          </div>
+          <div className="flex mt-10 flex-col lg:flex lg:flex-row justify-around items-center mx-2.5 hidden lg:block">
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={EnkhUliral} />
+              <h1 className="mt-5 text-xl text-white">М. Энx-Улирал</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Co-Founder at CryptoPuujin</p>
+            </div>
+
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={Zolboo} />
+              <h1 className="mt-5 text-xl text-white">Э. Золбоо</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Co-Founder at CryptoPuujin</p>
+            </div>
+
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44" src={NarinGarig} />
+              <h1 className="mt-5 text-xl text-white">Г. Нарангариг</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Head Developer at CryptoPuujin</p>
+            </div>
+
+            <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
+              <img className="rounded-full w-44 h-44" src={ChinTugsh} style={{objectFit: 'cover'}} />
+              <h1 className="mt-5 text-xl text-white">Т. Чинтүшиг</h1>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Chief People Officer at CryptoPuujin</p>
+            </div>
+
+          </div>
+
         </div>
-    );
+        {
+          showMore && member.map((item) =>
+            <div className="">
+              {item}
+            </div>
+          )
+        }
+
+        <div className="flex items-center justify-center block py-10 lg:hidden">
+          <div onClick={() => setShowMore(!showMore)} className="flex items-center justify-center text-center bg-white cursor-pointer w-60 h-14 rounded-3xl hover:bg-blue-400 transition-all duration-200">
+            <h1 className="font-bold text-black">Бусад гишүүд</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 

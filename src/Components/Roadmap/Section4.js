@@ -89,12 +89,12 @@ const Section4 = () => {
     
 
     return(
-        <div id="Road" className="h-fulll w-full py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
-            <h1 className="text-white font-semibold text-center text-2xl xl:text-6xl pb-10 xl:py-20 xl:-mb-56 relative">АрдМааний төлөвлөгөө</h1>
-            <div className="container mx-auto relative xl-top-52 w-full">
-                <div className="flex justify-around items-center">
+        <div id="Road" className="w-full h-fulll py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
+            <h1 className="relative pb-10 text-2xl font-semibold text-center text-white xl:text-6xl xl:py-20 xl:-mb-56">АрдМааний төлөвлөгөө</h1>
+            <div className="container relative w-full mx-auto xl-top-52">
+                <div className="flex items-center justify-around">
                     <div className="hidden xl:block">
-                        <div className="flex flex-row justify-center items-center">
+                        <div className="flex flex-row items-center justify-center">
                             <svg width="187" height="1108" viewBox="0 0 187 1108" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_di_257_14)">
                                     <path d="M3 0V250C3 283.69 30.3106 311 64 311H117.5C151.189 311 178.5 338.311 178.5 372V1102.5" stroke="#F9B74B" stroke-width="5"/>
@@ -121,36 +121,36 @@ const Section4 = () => {
                                         </filter>
                                     </defs>
                                 </svg>
-                            <div className="flex flex-col justify-between space-y-28 ml-10 mt-2 mb-12">
-                                <h1 onClick={() => setClick(1)} className="text-white cursor-pointer hover:text-yellow-500 font-semibold border-b-2 hover:border-yellow-200 border-yellow-500">hello</h1>
-                                <h1 onClick={() => setClick(2)} className="text-white cursor-pointer font-semibold border-b-2 hover:border-yellow-200 border-yellow-500">hello</h1>
-                                <h1 onClick={() => setClick(3)} className="text-white cursor-pointer font-semibold border-b-2 hover:border-yellow-200 border-yellow-500">hello</h1>
+                            <div className="flex flex-col justify-between mt-2 mb-12 ml-10 space-y-28">
+                                <h1 onClick={() => setClick(1)} className={`${isActive(1)} uppercase cursor-pointer font-extralight hover:text-yellow-200`}>Эхний үе шат</h1>
+                                <h1 onClick={() => setClick(2)} className={`${isActive(2)} uppercase cursor-pointer font-extralight hover:text-yellow-200`}>Хоёр дахь үе шат</h1>
+                                <h1 onClick={() => setClick(3)} className={`${isActive(3)} uppercase cursor-pointer font-extralight hover:text-yellow-200`}>Гурав дахь үе шат</h1>
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col block xl:hidden mr-3">
-                            <div className="flex justify-center items-center ml-10 block xl:hidden ">
-                                <div onClick={() => setClick(1)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
-                                    <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
+                    <div className="flex flex-col block mr-3 xl:hidden">
+                            <div className="flex items-center justify-center block ml-10 xl:hidden ">
+                                <div onClick={() => setClick(1)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
+                                    <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
                                 </div>
                                 <div className="w-6 h-1" style={{backgroundColor:'#41404F'}}></div>
-                                <div onClick={() => setClick(2)} className="cursor-pointer flex block xl:hidden w-20 h-6 rounded-xl justify-center items-center" style={{backgroundColor:'#41404F'}}>
-                                    <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
+                                <div onClick={() => setClick(2)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
+                                    <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
                                 </div>
                                 <div className="w-6 h-1" style={{backgroundColor:'#41404F'}}></div>
-                                <div onClick={() => setClick(3)} className="flex block xl:hidden w-20 h-6 rounded-xl cursor-pointer justify-center items-center" style={{backgroundColor:'#41404F'}}>
-                                    <h1 className="cursor-pointer text-yellow-200 text-center">DEA</h1>
+                                <div onClick={() => setClick(3)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
+                                    <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
                                 </div>
                             </div>
-                            <div className="shadow-2xl border-l-2 border-t-2 w-10/12 border-gray-600 mx-10 mt-10 rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+                            <div className="w-10/12 mx-10 mt-10 border-t-2 border-l-2 border-gray-600 shadow-2xl rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
                                 {
                                     HandleClick(click)
                                 }
                             </div>
                     </div>
-                    {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600 mr-20' style={{top:'415%'}}></div> */}
+                    {/* <div className='absolute block h-24 m-4 mr-20 border-t-2 border-l-2 border-yellow-600 xl:hidden w-72 rounded-tl-xl' style={{top:'415%'}}></div> */}
                     <div className="hidden xl:block">
-                        <div className="flex border-l p-20 shadow-2xl border-t border-gray-500 rounded-3xl" style={{backgroundColor: '#1C1B24'}}>
+                        <div className="flex p-20 border-t border-l border-gray-500 shadow-2xl rounded-3xl" style={{backgroundColor: '#1C1B24'}}>
                             {
                                 HandleClick(click)
                             }
@@ -161,7 +161,14 @@ const Section4 = () => {
             </div>
         </div>
     )
+
+  function isActive(idx) {
+    return click == idx ? "text-yellow-200 font-normal" : "text-white";
+  }
+
 }
 
 
 export default Section4
+
+

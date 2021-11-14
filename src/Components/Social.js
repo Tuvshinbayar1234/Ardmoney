@@ -3,38 +3,33 @@ import {FaTwitter, FaInstagram , FaFacebookF, FaWhatsapp, FaDiscord} from 'react
 
 const Socials = () =>{ 
     return(
-        <div className="w-full h-full py-8" style={{backgroundColor: '#1C1B24'}}>
+        <div className="w-full h-full py-12" style={{backgroundColor: '#1C1B24'}}>
             <div className="container mx-auto">
-                <div className="text-center">
-                    <h1 className="text-4xl text-white font-semibold">Socials</h1>
-                </div>
-                        
-                    <div className="flex xl:flex-row flex-col justify-center mt-10 items-center">
-                        
+                    <div className="flex flex-col items-center justify-center xl:flex-row">
                         <div className="flex justify-center mt-10 xl:mt-0 space-x-4">
                             <a href="#" target="_blank">
-                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
-                                    <FaTwitter className="xl:w-6/12 xl:h-3/6 w-8 h-8 " color="white" />
+                                <div className="flex items-center justify-center w-12 h-12 bg-yellow-600 rounded-full cursor-pointer xl:w-16 xl:h-16 hover:bg-red-700">
+                                    <FaTwitter className="w-8 h-8 xl:w-6/12 xl:h-3/6 " color="white" />
                                 </div>
                             </a>
                             <a href="#" target="_blank">
-                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
-                                    <FaInstagram className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                <div className="flex items-center justify-center w-12 h-12 bg-yellow-600 rounded-full cursor-pointer xl:w-16 xl:h-16 hover:bg-red-700">
+                                    <FaInstagram className="w-8 h-8 xl:w-6/12 xl:h-3/6" color="white" />
                                 </div>
                             </a>
                             <a href="#" target="_blank">
-                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
-                                    <FaFacebookF className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                <div className="flex items-center justify-center w-12 h-12 bg-yellow-600 rounded-full cursor-pointer xl:w-16 xl:h-16 hover:bg-red-700">
+                                    <FaFacebookF className="w-8 h-8 xl:w-6/12 xl:h-3/6" color="white" />
                                 </div>
                             </a>
                             <a href="#" target="_blank">
-                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
-                                    <FaWhatsapp className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                <div className="flex items-center justify-center w-12 h-12 bg-yellow-600 rounded-full cursor-pointer xl:w-16 xl:h-16 hover:bg-red-700">
+                                    <FaWhatsapp className="w-8 h-8 xl:w-6/12 xl:h-3/6" color="white" />
                                 </div>
                             </a>
                             <a href="#" target="_blank">
-                                <div className="xl:w-16 cursor-pointer xl:h-16 w-12 h-12 bg-yellow-600 hover:bg-red-700 rounded-full flex justify-center items-center">
-                                    <FaDiscord className="xl:w-6/12 xl:h-3/6 w-8 h-8" color="white" />
+                                <div className="flex items-center justify-center w-12 h-12 bg-yellow-600 rounded-full cursor-pointer xl:w-16 xl:h-16 hover:bg-red-700">
+                                    <FaDiscord className="w-8 h-8 xl:w-6/12 xl:h-3/6" color="white" />
                                 </div>
                             </a>
                         </div>

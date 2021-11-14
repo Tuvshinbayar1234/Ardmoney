@@ -67,7 +67,7 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div className="relative -top-12 left-12">
+          <div className="relative -top-2 left-12">
             <img src={CubeImg} width="590px" height="590px" />
           </div>
 
