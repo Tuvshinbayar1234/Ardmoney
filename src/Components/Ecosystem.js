@@ -8,24 +8,19 @@ const Ecosystem = () => {
   const dummy = [
     {
       id: 1,
-      data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!1",
-      list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+      data: "1. DAX.mn дээр урьдчилсан худалдаа.",
+      list: "2. SPL, ERC20, BEP20 хувилбарын хөгжүүлэлт, нэвтрүүлэлт.",
     },
     {
       id: 2,
-      data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!2",
-      list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+      data: "1. DEX протокол хөгжүүлэлтийг эхлүүлэх.",
+      list: "2. AMM Liquidity Pools протоколын хөгжүүлэлт.",
+      list2: "3. Платформыг нэвтрүүлэх.",
     },
     {
       id: 3,
-      data: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
-      list3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dignissimos!3",
+      data: "1. Governance протоколыг ашиглан хэрэглэгчид шинэчлэлүүдэд бүрэн саналын эрхтэй оролцох.",
+      list: "2. Wormhole bridge технологийг ашиглан BSC, Ethereum, Polygon, Terra, Solana блокчэйн сүлжээ хоорондын интеграци хийх.",
     }
   ]
 
@@ -33,7 +28,7 @@ const Ecosystem = () => {
     let temp = dummy.filter(singleData => singleData.id == id)
 
     return (
-      <div className="w-full mb-5 ml-5">
+      <div className="w-full mb-5 ml-5 text-left">
         <h1 className="mt-4 text-white xl:w-full">{temp[0].data}</h1>
         <h1 className="mt-4 text-white xl:w-full">{temp[0].list}</h1>
         <h1 className="mt-4 text-white xl:w-full">{temp[0].list2}</h1>
