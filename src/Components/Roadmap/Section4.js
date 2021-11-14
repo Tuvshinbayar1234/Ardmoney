@@ -90,7 +90,7 @@ const Section4 = () => {
 
     return(
         <div id="Road" className="h-fulll w-full py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
-            <h1 className="text-white font-semibold text-center text-2xl xl:text-6xl xl:py-20 mb-10">АрдМааний төлөвлөгөө</h1>
+            <h1 className="text-white font-semibold text-center text-2xl xl:text-6xl pb-10 xl:py-20 xl:-mb-56 relative">АрдМааний төлөвлөгөө</h1>
             <div className="container mx-auto relative xl-top-52 w-full">
                 <div className="flex justify-around items-center">
                     <div className="hidden xl:block">

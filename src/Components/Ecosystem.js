@@ -55,9 +55,9 @@ const Ecosystem = () => {
                     </div>
                     <div className="">
                         <div className="">
-                            <h1 className="xl:text-6xl text-2xl mx-5 text-white font-semibold">Ecosystem</h1>
+                            <h1 className="xl:text-6xl text-2xl mx-5 xl:mx-2 text-white font-semibold">Ecosystem</h1>
                         </div>
-                        <div className="flex space-x-16 mt-10">
+                        <div className="flex space-x-16 xl:ml-5 mt-10">
                             <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(1)}>High gas fees</h1>
                             <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(2)}>High gas fees</h1>
                             <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(3)}>High gas fees</h1>
