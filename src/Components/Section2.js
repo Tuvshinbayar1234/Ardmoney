@@ -29,17 +29,19 @@ const Section2 = () => {
     let temp = dummy.filter(singleData => singleData.id == id)
 
     return (
-      <div className="ml-5 sm:ml-0">
-        <h1 className="mt-5 text-2xl text-white font-extralight xl:text-4xl">{temp[0].title}</h1>
-        <h1 className="mt-5 mb-5 text-sm leading-loose tracking-wide text-white xl:text-base xl:w-3/5">{temp[0].data}</h1>
+      <div className="px-6 md:px-0 md:ml-5 sm:ml-0">
+        <h1 className="mt-5 text-2xl text-center text-white md:text-left font-extralight xl:text-4xl">{temp[0].title}</h1>
+        <h1 className="mt-5 mb-5 text-sm leading-loose tracking-wide text-center text-white md:text-left xl:text-base xl:w-3/5">{temp[0].data}</h1>
       </div>
     )
   }
 
+  let mobileButtonTextStyle = (idx) => `${activeSection == idx ? "text-white" : "text-yellow-200" } text-center cursor-pointer`;
+
   return (
     <div id="Res" className="w-full" style={{backgroundColor: '#373544'}}>
-      <div className="container px-20 mx-auto">
-        <h1 className="py-16 text-2xl font-bold text-center text-white xl:text-6xl">Resolving DEX Issues</h1>
+      <div className="container mx-auto lg:px-20">
+        <h1 className="py-12 text-xl font-bold text-center text-white md:py-16 xl:text-6xl">Resolving DEX Issues</h1>
 
         <div className="flex">
           <div className="leftSide">
@@ -48,26 +50,26 @@ const Section2 = () => {
               <h1 className={`hidden w-16 text-2xl font-light ${isActive(2)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(2)}>Defi</h1>
               <h1 className={`hidden w-16 text-2xl font-light ${isActive(3)} cursor-pointer xl:block hover:text-white hover:border-yellow-200`} onClick={() => setActiveSection(3)}>Dex</h1>
             </div>
-            <div className="flex items-center justify-center block ml-10 xl:hidden">
-              <div onClick={() => setActiveSection(1)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+
+            <div className="flex flex-col items-center block text-xl xl:hidden">
+              <div onClick={() => setActiveSection(1)} className="flex items-center justify-center block w-full h-6 py-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
+                <h1 className={mobileButtonTextStyle(1)}>Dao</h1>
               </div>
-              <div className="w-12 h-1" style={{backgroundColor: '#41404F'}}></div>
-              <div onClick={() => setActiveSection(2)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+              <div onClick={() => setActiveSection(2)} className="flex items-center justify-center block w-full h-6 py-6 my-8 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
+                <h1 className={mobileButtonTextStyle(2)}>Defi</h1>
               </div>
-              <div className="w-12 h-1" style={{backgroundColor: '#41404F'}}></div>
-              <div onClick={() => setActiveSection(3)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
-                <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+              <div onClick={() => setActiveSection(3)} className="flex items-center justify-center block w-full h-6 py-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor: '#41404F'}}>
+                <h1 className={mobileButtonTextStyle(3)}>Dex</h1>
               </div>
             </div>
+
             <div className="container flex pb-36">
-              <div className="mt-10 border-t-2 border-l-2 border-gray-600 shadow-2xl w-3/3 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
+              <div className="w-full mt-10 border-t-2 border-l-2 border-gray-600 shadow-2xl rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
                 {findActiveData(activeSection)}
               </div>
             </div>
           </div>
-          <div className="relative -top-2 left-12">
+          <div className="relative hidden -top-2 left-12 md:block">
             <img src={CubeImg} width="590px" height="590px" />
           </div>
 

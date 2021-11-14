@@ -17,9 +17,9 @@ export default function Hamburger() {
 
     return (
         <>
-            <div className="">
+            <div className="pl-4">
                 <nav className="relative">
-                    <div className="xl:hidden relative mr-5">
+                    <div className="relative mr-5 xl:hidden">
                         <button onClick={handleToggle} className="flex items-center text-white">
                             <FaAlignJustify />
                         </button>
@@ -27,7 +27,7 @@ export default function Hamburger() {
                 </nav>
                 <div className="navbar-menu">
                     <nav className={`z-50 fixed top-0 right-0 bottom-0 bg-black text-gray-300 flex flex-col w-full max-w-sm py-6 px-6 bg-dax-blue border-r overflow-y-auto  ${navOpen ? 'fixed right-0 transition-all duration-200 ease-in ' : 'fixed -right-full transition-all duration-200 ease-in '}`}>
-                        <div className="xl:hidden relative flex justify-between">
+                        <div className="relative flex justify-between xl:hidden">
                             <img src={Logo} />
                             <button onClick={handleToggle} className="flex items-center text-white">
                                 <FaAlignJustify />

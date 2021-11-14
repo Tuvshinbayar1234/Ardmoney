@@ -89,7 +89,7 @@ const Section4 = () => {
     
 
     return(
-        <div id="Road" className="w-full h-fulll py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
+        <div id="Road" className="w-full py-16 md:py-32" style={{backgroundColor: '#1C1B24'}}>
             <h1 className="relative pb-10 text-2xl font-semibold text-center text-white xl:text-6xl xl:py-20 xl:-mb-56">АрдМааний төлөвлөгөө</h1>
             <div className="container relative w-full mx-auto xl-top-52">
                 <div className="flex items-center justify-around">
@@ -128,32 +128,28 @@ const Section4 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col block mr-3 xl:hidden">
-                            <div className="flex items-center justify-center block ml-10 xl:hidden ">
-                                <div onClick={() => setClick(1)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
-                                    <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+                    <div className="flex flex-col block xl:hidden">
+                            <div className="flex items-center justify-center block xl:hidden ">
+                                <div onClick={() => setClick(1)} className="flex items-center justify-center block w-20 h-32 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
+                                    <h1 className={`${isActive(1)} text-center cursor-pointer text-xs px-2`}>Эхний үе шат</h1>
                                 </div>
                                 <div className="w-6 h-1" style={{backgroundColor:'#41404F'}}></div>
-                                <div onClick={() => setClick(2)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
-                                    <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+                                <div onClick={() => setClick(2)} className="flex items-center justify-center block w-20 h-32 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
+                                    <h1 className={`${isActive(2)} text-center cursor-pointer text-xs px-2`}>Хоёр дахь үе шат</h1>
                                 </div>
                                 <div className="w-6 h-1" style={{backgroundColor:'#41404F'}}></div>
-                                <div onClick={() => setClick(3)} className="flex items-center justify-center block w-20 h-6 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
-                                    <h1 className="text-center text-yellow-200 cursor-pointer">DEA</h1>
+                                <div onClick={() => setClick(3)} className="flex items-center justify-center block w-20 h-32 cursor-pointer xl:hidden rounded-xl" style={{backgroundColor:'#41404F'}}>
+                                    <h1 className={`${isActive(3)} text-center cursor-pointer text-xs px-2`}>Гурав дахь үе шат</h1>
                                 </div>
                             </div>
-                            <div className="w-10/12 mx-10 mt-10 border-t-2 border-l-2 border-gray-600 shadow-2xl rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
-                                {
-                                    HandleClick(click)
-                                }
+                            <div className="w-full py-6 mt-10 text-center border-t-2 border-l-2 border-gray-600 shadow-2xl rounded-3xl xl:border-none xl:shadow-none xl:ml-0 xl:mt-0">
+                                { HandleClick(click) }
                             </div>
                     </div>
                     {/* <div className='absolute block h-24 m-4 mr-20 border-t-2 border-l-2 border-yellow-600 xl:hidden w-72 rounded-tl-xl' style={{top:'415%'}}></div> */}
                     <div className="hidden xl:block">
                         <div className="flex p-20 border-t border-l border-gray-500 shadow-2xl rounded-3xl" style={{backgroundColor: '#1C1B24'}}>
-                            {
-                                HandleClick(click)
-                            }
+                            { HandleClick(click) }
                         </div>
                     </div>   
                 </div>

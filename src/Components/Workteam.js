@@ -42,7 +42,6 @@ const Workteam = () => {
           <img className="rounded-full w-44" src={Eegii} />
           <h1 className="mt-5 text-xl text-white">М.Энх-Амгалан</h1>
           <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
-
         </div>
 
         <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
@@ -62,6 +61,7 @@ const Workteam = () => {
           <h1 className="mt-5 text-xl text-white">М. Энx-Улирал</h1>
           <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Co-Founder at CryptoPuujin</p>
         </div>
+
         <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
           <img className="rounded-full w-44" src={Zolboo} />
           <h1 className="mt-5 text-xl text-white">Э. Золбоо</h1>
@@ -73,7 +73,7 @@ const Workteam = () => {
           <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Head Developer at CryptoPuujin</p>
         </div>
         <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
-          <img className="rounded-full w-44" src={ChinTugsh} />
+          <img className="rounded-full w-44 h-44" src={ChinTugsh} style={{objectFit: 'cover'}} />
           <h1 className="mt-5 text-xl text-white">Т. Чинтүшиг</h1>
           <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Chief People Officer at CryptoPuujin</p>
         </div>
@@ -88,7 +88,7 @@ const Workteam = () => {
     <div id="Work" className="w-full pb-5" style={{backgroundImage: `url(${Team})`, backgroundSize: '100% 100%'}}>
       <div className="container flex flex-col mx-auto py-36">
         <div className="mx-2.5 pb-20 lg:pl-16">
-          <h1 className="relative mx-5 text-5xl font-bold text-white -left-20">Төслийн Баг</h1>
+          <h1 className="relative mx-5 text-5xl font-bold text-center text-white md:-left-20">Төслийн Баг</h1>
         </div>
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex lg:flex-row justify-around items-center mx-2.5">
