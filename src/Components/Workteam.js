@@ -44,7 +44,8 @@ const Workteam = () => {
         <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
           <img className="rounded-full w-44" src={Anhaa} />
           <h1 className="mt-5 text-xl text-white">Д. Анхбаясгалан</h1>
-          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Блокчэйн зөвлөх</p>
+          <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн инновацийн блокчэйн ахлах</p>
+          
         </div>
 
       </div>
@@ -73,7 +74,7 @@ const Workteam = () => {
             <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
               <img className="rounded-full w-44" src={Anhaa} />
               <h1 className="mt-5 text-xl text-white">Д. Анхбаясгалан</h1>
-              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн менежер</p>
+              <p className="mt-2 text-xs font-extrabold text-center text-white lg:font-extrabold lg:text-base">Төслийн инновацийн блокчэйн ахлах</p>
             </div>
 
             <div className="flex flex-col items-center justify-center mt-5 rounded-xl">
