@@ -29,20 +29,20 @@ const Section2 = () => {
 
         return (
             <div className="ml-10 sm:ml-0">
-                <h1 className="mt-10 text-2xl w-full font-semibold text-yellow-400">{temp[0].title}</h1>
+                <h1 className="mt-10 text-4xl w-2/5 font-semibold text-white">{temp[0].title}</h1>
                 <h1 className="mt-10 text-white xl:w-3/5">{temp[0].data}</h1>
             </div>
         )
     }
     
     return(
-        <div className=" w-full h-full lg:py-36" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
+        <div className=" w-full h-full" style={{backgroundColor: '#1C1B24', backgroundImage: `url(${Cube})`, backgroundSize:'cover'}}>
             <div className="container mx-auto">
-                <h1 className="text-left sm:text-center py-6 text-2xl xl:text-3xl font-bold text-white text-center">Resolving DEX Issues</h1>
-                <div className="flex w-6/12 space-x-16 ">
-                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>Төвлөрсөн бус санхүү</h1>
-                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Төвлөрсөн бус арилжаа</h1>
-                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(3)}>Засаглал</h1>
+                <h1 className="text-left sm:text-center text-2xl xl:text-6xl font-bold text-white text-center">Resolving DEX Issues</h1>
+                <div className="flex w-6/12 space-x-16 py-16">
+                    <h1 className="cursor-pointer hidden xl:block hover:text-white border-b-2 hover:border-yellow-200 border-yellow-500 text-yellow-200 font-semibold text-2xl" onClick={() => setActiveSection(1)}>Төвлөрсөн бус санхүү</h1>
+                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(2)}>Төвлөрсөн бус арилжаа</h1>
+                    <h1 className="cursor-pointer hidden xl:block hover:text-white text-yellow-200 border-b-2 hover:border-yellow-200 border-yellow-500 font-semibold text-2xl" onClick={() => setActiveSection(3)}>Засаглал</h1>
                 </div>
                 <div className=" flex justify-center items-center ml-10 block xl:hidden">
                     
@@ -60,7 +60,7 @@ const Section2 = () => {
                     
                 </div>
                 {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600' style={{top:'105%', zIndex: '0'}}></div> */}
-                <div className="container mx-5 flex justify-evenly">
+                <div className="container mx-5 flex justify-evenly pb-48">
                     <div className="shadow-2xl border-l-2 border-t-2 border-gray-600 mx-5 mt-10 rounded-3xl sm:border-none sm:shadow-none sm:ml-0 sm:mt-0">
                     {
                         findActiveData(activeSection)

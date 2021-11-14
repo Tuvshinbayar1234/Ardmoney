@@ -90,11 +90,11 @@ const Section4 = () => {
 
     return(
         <div className="h-fulll w-full py-30 pb-30" style={{backgroundColor: '#1C1B24'}}>
-            <div className="container mx-auto">
-            <h1 className="text-white font-semibold text-center text-2xl xl:text-4xl">АрдМааний</h1>
-                <div className="flex justify-center items-center mt-10">
-                    <div className="w-full hidden xl:block">
-                        <div className=" w-full flex flex-row justify-center items-center">
+            <h1 className="text-white font-semibold text-center text-2xl xl:text-6xl relative">АрдМааний төлөвлөгөө</h1>
+            <div className="container mx-auto relative -top-14 w-full">
+                <div className="flex justify-around items-center">
+                    <div className="hidden xl:block">
+                        <div className="flex flex-row justify-center items-center">
                             <svg width="187" height="1108" viewBox="0 0 187 1108" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_di_257_14)">
                                     <path d="M3 0V250C3 283.69 30.3106 311 64 311H117.5C151.189 311 178.5 338.311 178.5 372V1102.5" stroke="#F9B74B" stroke-width="5"/>
@@ -122,9 +122,9 @@ const Section4 = () => {
                                     </defs>
                                 </svg>
                             <div className="flex flex-col justify-between space-y-28 ml-10 mt-2 mb-12">
-                                <h1 onClick={() => setClick(1)} className="text-white cursor-pointer hover:text-yellow-500 font-semibold">hello</h1>
-                                <h1 onClick={() => setClick(2)} className="text-white cursor-pointer font-semibold">hello</h1>
-                                <h1 onClick={() => setClick(3)} className="text-white cursor-pointer font-semibold">hello</h1>
+                                <h1 onClick={() => setClick(1)} className="text-white cursor-pointer hover:text-yellow-500 font-semibold border-b-2 hover:border-yellow-200 border-yellow-500">hello</h1>
+                                <h1 onClick={() => setClick(2)} className="text-white cursor-pointer font-semibold border-b-2 hover:border-yellow-200 border-yellow-500">hello</h1>
+                                <h1 onClick={() => setClick(3)} className="text-white cursor-pointer font-semibold border-b-2 hover:border-yellow-200 border-yellow-500">hello</h1>
                             </div>
                         </div>
                     </div>
@@ -149,11 +149,13 @@ const Section4 = () => {
                             </div>
                     </div>
                     {/* <div className='block xl:hidden absolute m-4 w-72 h-24 rounded-tl-xl border-t-2 border-l-2 border-yellow-600 mr-20' style={{top:'415%'}}></div> */}
-                    <div className="hidden xl:block w-3/5 border-l border-t border-gray-500 rounded-3xl text-left" style={{backgroundColor: '#1C1B24'}}>
-                        {
-                            HandleClick(click)
-                        }
-                    </div>
+                    <div className="hidden xl:block">
+                        <div className="flex border-l p-20 shadow-2xl border-t border-gray-500 rounded-3xl" style={{backgroundColor: '#1C1B24'}}>
+                            {
+                                HandleClick(click)
+                            }
+                        </div>
+                    </div>   
                 </div>
                 
             </div>
